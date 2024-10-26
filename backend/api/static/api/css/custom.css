@@ -1,0 +1,36 @@
+/* custom.css */
+body {
+    background-color: #f4f4f4; /* Light background */
+}
+
+.site-header {
+    background-color: #343a40; /* Darker header */
+    color: #ffffff; /* White text */
+}
+
+.navbar {
+    background-color: #343a40; /* Dark navbar */
+}
+
+.navbar a {
+    color: #ffffff; /* White text links */
+}
+
+.table thead {
+    background-color: #007bff; /* Blue header for tables */
+    color: #ffffff; /* White text for table header */
+}
+
+.table tbody tr:hover {
+    background-color: #e2e2e2; /* Light gray on row hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Custom primary button color */
+    border-color: #007bff; /* Custom button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker on hover */
+    border-color: #004085; /* Darker border on hover */
+}

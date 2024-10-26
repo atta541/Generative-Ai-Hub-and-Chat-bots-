@@ -1,0 +1,30 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Conversations for {{ user.username }}</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>User Message</th>
+            <th>Bot Response</th>
+            <th>Created At</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for conversation in conversations %}
+        <tr>
+            <td>{{ conversation.user_message }}</td>
+            <td>{{ conversation.bot_response }}</td>
+            <td>{{ conversation.created_at }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">No conversations found for this user.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<a href="{% url 'admin:auth_user_change' user.id %}">Edit User</a>
+{% endblock %}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Data</title>
+    {% load static %}  <!-- Load static files -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">  <!-- Link to your CSS -->
+    <style>
+        /* Optional: Add some styles for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>All Data</h1>
+        <p>Welcome to the Generative AI Chatbot Hub Admin Panel!</p>
+        <p>Here you can view all data stored in the API.</p>
+
+        <h2>User Profiles</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Subscription Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                    <tr>
+                        <td>{{ user.user.username }}</td>  <!-- Assuming user is a UserProfile instance -->
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.is_subscribed|yesno:"Subscribed,Not Subscribed" }}</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="3">No users found.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
