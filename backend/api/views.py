@@ -104,3 +104,81 @@ def user_conversations_view(request, user_id):
         'conversations': conversations,
     }
     return render(request, 'your_template.html', context)  # Adjust to your template
+
+
+
+
+
+
+
+
+# api/views.py
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from google.auth.transport import requests
+from google.oauth2 import id_token
+from django.contrib.auth.models import User
+from rest_framework_simplejwt.tokens import RefreshToken
+from google.oauth2 import id_token
+from google.auth.transport import requests
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.response import Response
+from rest_framework_simplejwt.tokens import RefreshToken
+from django.contrib.auth.models import User
+from rest_framework.permissions import AllowAny
+from django.contrib.auth import get_user_model
+from django.http import JsonResponse
+from google.oauth2 import id_token
+
+
+
+
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
+from rest_framework.response import Response
+from rest_framework_simplejwt.tokens import RefreshToken
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+
+
+
+def google_login(request):
+    email = request.data.get("email")
+    first_name = request.data.get("first_name")
+    last_name = request.data.get("last_name")
+    picture = request.data.get("picture")
+
+    if not email:
+        return Response({"error": "Email is required"}, status=400)
+
+    try:
+        # Get or create the user
+        user, created = User.objects.get_or_create(
+            email=email,
+            defaults={
+                'first_name': first_name,
+                'last_name': last_name,
+                'username': email.split("@")[0]
+            }
+        )
+
+        # Update user's first name, last name, or picture if needed
+        if not created:
+            user.first_name = first_name
+            user.last_name = last_name
+            user.save()
+
+        # Generate JWT tokens
+        refresh = RefreshToken.for_user(user)
+        return Response({
+            'access_token': str(refresh.access_token),
+            'refresh_token': str(refresh),
+        })
+
+    except Exception as e:
+        print(f"Unexpected error: {str(e)}")
+        return Response({"error": "User authentication failed", "details": str(e)}, status=500)

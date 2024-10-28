@@ -47,7 +47,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     # path('', include('api.urls')),
-     path('', include('api.urls')),  # This includes your api/urls.py
+    #  path('', include('api.urls')),  # This includes your api/urls.py
+    path('api/', include('api.urls')),
+
+    path('accounts/', include('allauth.urls')),  # Include allauth URLs
 
 
     path('user/<int:user_id>/conversations/', user_conversations_view, name='user_conversations'),  # Your custom URL

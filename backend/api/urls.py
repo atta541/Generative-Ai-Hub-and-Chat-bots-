@@ -25,23 +25,28 @@ from .chatbot_History.history_atta import get_user_conversations
 from .chatbots.gpt3_5 import Gpt3_5APIView
 from .chatbots.personalbot import PersonalBotAPIView
 from .chatbots.atta import AttaAPIView
-from .chatbots.uol import UolAPIView
-from .views import website_info, all_data
+# from .chatbots.uol import UolAPIView
+from .views import website_info, all_data,google_login
 
 
 
 
 urlpatterns = [
+
+
+    path('google-login/', google_login, name='google_login'),
+
     # path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/login/', login_page, name='login_page'),  
+    path('login/', login_page, name='login_page'),  
+    path('register/', register_page, name='register'),
+
 
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/check_auth/', check_auth, name='check_auth'),
 
     path('api/logout/', logout_view, name='logout'),
-    path('api/register/', register_page, name='register'),
-    path('api/llama3/', Llama3APIView.as_view(), name='llama3'),
-    path('api/llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
+    path('llama3/', Llama3APIView.as_view(), name='llama3'),
+    path('llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
     path('api/gpt3.5/', Gpt3_5APIView.as_view(), name='llama3.1'),
 
     path('api/mixtral/', MixtralAPIView.as_view(), name='mixtral'),
@@ -53,7 +58,7 @@ urlpatterns = [
 
 
     path('api/gemma/', GemmaAPIView.as_view(), name='gemma'),
-    path('api/uol/', UolAPIView.as_view(), name='uol'),
+    # path('api/uol/', UolAPIView.as_view(), name='uol'),
 
     path('api/atta/', AttaAPIView.as_view(), name='atta'),
 

@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -41,14 +42,18 @@ INSTALLED_APPS = [
     'api',
     'corsheaders',
     'rest_framework_simplejwt',
-        'django_extensions',
-            # 'djstripe',
+    'django_extensions',
+    # 'djstripe',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
 
-
-
-
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',  # Correct provider for Google
+    'rest_framework.authtoken',  # Ensure this is after the comma
 
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -58,21 +63,60 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'corsheaders.middleware.CorsMiddleware',  # add this line
-
-           'corsheaders.middleware.CorsMiddleware',  # add this line
+    'corsheaders.middleware.CorsMiddleware',  # add this line
+    'corsheaders.middleware.CorsMiddleware',  # add this line
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'api.middleware.SomeCustomMiddleware',
+    # 'api.middleware.YourMiddlewareClassName',
+    'api.middleware.SomeCustomMiddleware',
+    'allauth.account.middleware.AccountMiddleware',  # Add this line
+     'corsheaders.middleware.CorsMiddleware',
+
+    
+
+
+
+
 ]
 
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',  # or other authentication backends
-]
 
 
+
+# SOCIALACCOUNT_PROVIDERS = {
+#     'google': {
+#         'SCOPE': [
+#             'profile',
+#             'email',
+#         ],
+#         'AUTH_PARAMS': {
+#             'access_type': 'online',
+#         }
+#     }
+# }
+
+
+
+# Google OAuth Credentials
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'APP': {
+            'client_id': '719066176783-ls7e7hu7sdn0n5k4eg8khdcmn8nkgtjm.apps.googleusercontent.com',
+            'secret': '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',
+            'key': ''
+        },
+        'SCOPE': ['profile', 'email'],
+        'AUTH_PARAMS': {'access_type': 'online'},
+        'METHOD': 'oauth2',
+    }
+}
+
+
+LOGIN_REDIRECT_URL = '/home'
+SITE_ID = 1
 
 
 REST_FRAMEWORK = {
@@ -128,12 +172,23 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#          'OPTIONS': {
+#             'timeout': 30,  # Increase the timeout to 20 seconds
+#         }
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-         'OPTIONS': {
-            'timeout': 30,  # Increase the timeout to 20 seconds
+        'NAME': BASE_DIR / 'new_db.sqlite3',  # Change to a new file name
+        'OPTIONS': {
+            'timeout': 60,
         }
     }
 }
@@ -183,16 +238,21 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # Frontend URL for development
+    # 'http://localhost:3000',  # Frontend URL for development
     'https://your-frontend-domain.com',  # Production URL (if applicable)
     'https://1ea5-154-57-223-240.ngrok-free.app',  # Ngrok URL (if used)
-        'https://c93c-119-73-112-226.ngrok-free.app',  # ngrok URL
-        'http://192.168.1.8:3000',
-        'https://e9d2-119-63-138-252.ngrok-free.app'
+    'https://c93c-119-73-112-226.ngrok-free.app',  # ngrok URL
+    # 'http://192.168.1.8:3000',
+    'https://e9d2-119-63-138-252.ngrok-free.app'
 
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
@@ -260,3 +320,24 @@ EMAIL_HOST_USER = 'attareh542@gmail.com'
 EMAIL_HOST_PASSWORD = 'olub mwyt zerw quub'
 DEFAULT_FROM_EMAIL = 'attareh542@gmail.com'
 
+
+
+
+SOCIAL_AUTH_GOOGLE_CLIENT_ID = "62964421677-krntlqgcfo4ec9ke71pn7qe4ui244ng5.apps.googleusercontent.com"
+SOCIAL_AUTH_GOOGLE_CLIENT_SECRET = "your-client-secret"
+
+AUTHENTICATION_BACKENDS = [
+   
+    'django.contrib.auth.backends.ModelBackend',  # Keep the default backend
+    'allauth.account.auth_backends.AuthenticationBackend',  # Allauth
+
+]
+
+
+
+
+SITE_ID = 1  # Ensure this matches your Site framework setup
+
+# Google provider settings
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '62964421677-krntlqgcfo4ec9ke71pn7qe4ui244ng5.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
