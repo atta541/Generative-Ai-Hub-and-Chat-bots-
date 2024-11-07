@@ -462,14 +462,20 @@ const Login = () => {
                 </p>
                 {message && <p className="mt-4 text-red-500 text-center">{message}</p>}
                 <div className="text-center text-gray-500">
-                    <p>Or</p>
-                    <button
-                        onClick={googleLogin}
-                        className="mt-4 py-2 px-4 bg-blue-500 text-white rounded-lg font-semibold transition duration-300 hover:bg-blue-600"
-                    >
-                        Continue with Google
-                    </button>
-                </div>
+    <p>Or</p>
+    <button
+        onClick={googleLogin}
+        className="flex items-center justify-center mt-4 py-2 px-4 border border-gray-300 rounded-lg bg-white text-gray-700 font-semibold transition duration-300 hover:shadow-lg hover:bg-gray-100 ml-20"
+    >
+        <img
+            src="https://developers.google.com/identity/images/g-logo.png" 
+            alt="Google Logo"
+            className="h-5 mr-2" 
+        />
+        Continue with Google
+    </button>
+</div>
+
             </div>
         </div>
     );

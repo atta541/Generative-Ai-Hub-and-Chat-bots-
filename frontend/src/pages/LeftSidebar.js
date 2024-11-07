@@ -11,7 +11,8 @@ import HistoryAtta from '../components/history/History_Atta';
 import Claude from '../chatbots/ClaudeChatbot';
 import Gpt35 from '../chatbots/Gpt35';
 import Personalbot from '../chatbots/PersonalBot'
-import UOL from '../chatbots/Uol'; 
+import UOL from '../chatbots/Uol';
+import Llama32 from '../visionchatbots/llama32';
 
 
 const videoStyle = {
@@ -94,6 +95,20 @@ function LeftSidebar() {
           >
             UOL
           </button>
+
+          {/* vision models */}
+
+
+          <button
+            className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
+            onClick={() => handleChatbotClick('llama3.2-11b')}
+          >
+            llama3.2-11b
+          </button>
+
+          {/* end of vision models */}
+
+
           <button
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('Atta')}
@@ -129,6 +144,7 @@ function LeftSidebar() {
             {selectedChatbot === 'Claude' && <Claude />}
             {selectedChatbot === 'Gpt3.5' && <Gpt35 />}
             {selectedChatbot === 'Personalbot' && <Personalbot />}
+            {selectedChatbot === 'llama3.2-11b' && <Llama32/>}
 
 
             {selectedChatbot === 'Gemma' && <Gemma />}

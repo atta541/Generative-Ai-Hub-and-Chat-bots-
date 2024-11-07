@@ -25,12 +25,11 @@ from .chatbot_History.history_atta import get_user_conversations
 from .chatbots.gpt3_5 import Gpt3_5APIView
 from .chatbots.personalbot import PersonalBotAPIView
 from .chatbots.atta import AttaAPIView
-# from .chatbots.uol import UolAPIView
+from .chatbots.uol import UolAPIView
 from .views import website_info, all_data,google_login
+from .payment.stripe import create_subscription
 
-
-
-
+from .visionmodels.llama32 import Llama32_11bVisionAPIView
 urlpatterns = [
 
 
@@ -41,33 +40,37 @@ urlpatterns = [
     path('register/', register_page, name='register'),
 
 
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/check_auth/', check_auth, name='check_auth'),
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('check_auth/', check_auth, name='check_auth'),
 
     path('api/logout/', logout_view, name='logout'),
     path('llama3/', Llama3APIView.as_view(), name='llama3'),
     path('llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
-    path('api/gpt3.5/', Gpt3_5APIView.as_view(), name='llama3.1'),
+    path('gpt3.5/', Gpt3_5APIView.as_view(), name='llama3.1'),
 
-    path('api/mixtral/', MixtralAPIView.as_view(), name='mixtral'),
+    path('mixtral/', MixtralAPIView.as_view(), name='mixtral'),
 
 
     # path('api/claude/', ClaudeAPIView.as_view(), name='claude'),
-     path('api/claude/', ClaudeAPIView.as_view(), name='claude'),
+     path('claude/', ClaudeAPIView.as_view(), name='claude'),
 
 
 
-    path('api/gemma/', GemmaAPIView.as_view(), name='gemma'),
-    # path('api/uol/', UolAPIView.as_view(), name='uol'),
+    path('gemma/', GemmaAPIView.as_view(), name='gemma'),
+    path('uol/', UolAPIView.as_view(), name='uol'),
 
-    path('api/atta/', AttaAPIView.as_view(), name='atta'),
+    path('atta/', AttaAPIView.as_view(), name='atta'),
 
 
     
-    path('api/upload_pdf/', PdfAPIView.as_view(), name='upload_pdf'),
-    path('api/pdfchat/', PdfChat.as_view(), name='pdfchat'),
+    path('upload_pdf/', PdfAPIView.as_view(), name='upload_pdf'),
+    path('pdfchat/', PdfChat.as_view(), name='pdfchat'),
 
-    
+    # vision models 
+
+    path('llama32.11b/', Llama32_11bVisionAPIView.as_view(), name='meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo'),
+
+    # end of vision models
 
 
 
@@ -83,6 +86,16 @@ urlpatterns = [
 
     path('api/admin/website-info/', website_info, name='website_info'),
     path('api/admin/all-data/', all_data, name='all_data'),
+
+
+
+
+
+
+
+
+        path('create-subscription/', create_subscription, name='create_subscription'),
+
 ]
 
 

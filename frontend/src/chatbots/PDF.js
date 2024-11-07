@@ -319,7 +319,7 @@ const PDF = () => {
               type="submit"
               className="py-2 px-4 text-lg text-white bg-black rounded-md transition-colors duration-300 hover:bg-green-400"
             >
-              Send
+              Senddd
             </button>
           </div>
         </form>

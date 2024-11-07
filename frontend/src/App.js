@@ -31,7 +31,7 @@
 //         <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
 //         <Route path="/chatbots" element={<PrivateRoute><Chatbot /></PrivateRoute>} />
 //       </Routes>
-      
+
 //       {/* Render MainFooter only when on the '/' page */}
 //       {location.pathname === '/' && <MainFooter />}
 //     </>
@@ -76,11 +76,11 @@
 //       <Routes>
 //         {/* Show LandingPage if user is not authenticated */}
 //         <Route path="/" element={isAuthenticated ? <Home /> : <LandingPage />} />
-        
+
 //         {/* Routes for login and register */}
 //         <Route path="/login" element={isAuthenticated ? <Home /> : <Login />} />
 //         <Route path="/register" element={<Register />} />
-        
+
 //         {/* Authenticated routes */}
 //         <Route path="/home" element={<PrivateRoute><Home /></PrivateRoute>} />
 //         <Route path="/chatbots" element={<PrivateRoute><Chatbot /></PrivateRoute>} />
@@ -109,6 +109,13 @@ import PrivateRoute from './context/PrivateRoute';
 import MainFooter from './components/MainFooter';
 import LandingPage from './pages/LandingPage';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+// import { Elements } from '@stripe/react-stripe-js';
+// import { loadStripe } from '@stripe/stripe-js';
+// import SubscriptionForm from './components/SubscriptionForm';
+
+
+// const stripePromise = loadStripe('pk_test_51PQQsWIJIsx7jmFZxeK72wC321674plCOCLaslbW7gEDLUpnFLixxrLGqCp5v2ZBoZKLjURFd5WEhkPfdTAywsNi00mHhvQ8Tc'); // Replace with your actual Stripe publishable key
+
 
 function App() {
   return (
@@ -117,6 +124,9 @@ function App() {
         <Router>
           <Navbar />
           <MainContent />
+          {/* <Elements stripe={stripePromise}>
+            <SubscriptionForm />
+          </Elements> */}
         </Router>
       </AuthProvider>
     </GoogleOAuthProvider>
@@ -131,11 +141,11 @@ const MainContent = () => {
       <Routes>
         {/* Show LandingPage if user is not authenticated */}
         <Route path="/" element={isAuthenticated ? <Home /> : <LandingPage />} />
-        
+
         {/* Routes for login and register */}
         <Route path="/login" element={isAuthenticated ? <Home /> : <Login />} />
         <Route path="/register" element={<Register />} />
-        
+
         {/* Authenticated routes */}
         <Route path="/home" element={<PrivateRoute><Home /></PrivateRoute>} />
         <Route path="/chatbots" element={<PrivateRoute><Chatbot /></PrivateRoute>} />

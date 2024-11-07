@@ -394,6 +394,7 @@ from django.core.files.storage import default_storage
 from django.conf import settings
 # from groq import ChatGroq
 from langchain_groq import ChatGroq
+# from langchain_together import ChatTogether
 
 from rest_framework import status
 

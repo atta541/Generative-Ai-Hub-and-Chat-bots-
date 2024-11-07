@@ -13,8 +13,8 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain_anthropic import ChatAnthropic
 from decouple import config
-
-
+# from langchain_together import ChatTogether 
+import os
 # Initialize logging
 logger = logging.getLogger(__name__)
 
@@ -25,6 +25,7 @@ llm = ChatAnthropic(
 
     model_name="claude-3-5-sonnet-20240620"
 )
+
 
 
 

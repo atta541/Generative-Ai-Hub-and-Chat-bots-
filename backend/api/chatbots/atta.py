@@ -7,6 +7,7 @@ from langchain.chains import ConversationChain
 from decouple import config
 from langchain_core.prompts import ChatPromptTemplate
 
+
 prompt_template = ChatPromptTemplate.from_messages([
     ("system", """
 You are a chatbot designed to provide information based on the CV of Atta-ur-Rehman, a skilled JavaScript Developer. 

@@ -152,7 +152,8 @@ def register_page(request):
         password=password,
         first_name=first_name,
         last_name=last_name,
-        email=email
+        email=email,
+        is_subscribed=False
     )
     user.is_staff = True
     user.is_superuser = True
@@ -200,11 +201,12 @@ def register_page(request):
         password=password,
         first_name=first_name,
         last_name=last_name,
-        email=email
+        email=email,
+
     )
     
     # Create UserProfile
-    UserProfile.objects.create(user=user, email=email)
+    UserProfile.objects.create(user=user, email=email,is_subscribed=False)
     
     user.save()
 # # Send confirmation email
