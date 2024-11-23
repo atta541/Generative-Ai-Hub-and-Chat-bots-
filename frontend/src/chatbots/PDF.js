@@ -217,7 +217,7 @@ const PDF = () => {
     try {
       const token = localStorage.getItem('access_token');  // Retrieve token
       const res = await axios.get('http://127.0.0.1:8000/api/pdfchat/', {
-        params: { pdf_id: '1', question: message },
+        params: { pdf_id: '64', question: message },
         headers: {
           'Authorization': `Bearer ${token}`,  // Include Authorization header
         },
