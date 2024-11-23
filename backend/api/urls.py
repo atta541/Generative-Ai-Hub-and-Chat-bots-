@@ -28,6 +28,7 @@ from .chatbots.atta import AttaAPIView
 from .chatbots.uol import UolAPIView
 from .views import website_info, all_data,google_login
 from .payment.stripe import create_subscription
+from .chatbots.personalbot import PersonalBotAPIView
 
 from .visionmodels.llama32 import Llama32_11bVisionAPIView
 urlpatterns = [
@@ -53,6 +54,8 @@ urlpatterns = [
 
     # path('api/claude/', ClaudeAPIView.as_view(), name='claude'),
      path('claude/', ClaudeAPIView.as_view(), name='claude'),
+    #  path('personalbot/', PersonalBotAPIView.as_view(), name='claude'),
+
 
 
 
@@ -75,7 +78,7 @@ urlpatterns = [
 
 
 
-    path('api/personalbot/', PersonalBotAPIView.as_view(), name='PersnalBotAPIView'),
+    path('personalbot/', PersonalBotAPIView.as_view(), name='PersnalBotAPIView'),
 
     path('api/history_atta/<int:user_id>/', get_user_conversations, name='get_user_conversations'),
     

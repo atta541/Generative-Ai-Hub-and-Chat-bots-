@@ -341,3 +341,12 @@ SITE_ID = 1  # Ensure this matches your Site framework setup
 # Google provider settings
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '62964421677-krntlqgcfo4ec9ke71pn7qe4ui244ng5.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+
+# settings.py or the specific view file where the error occurs
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+# Other imports
+import faiss
+# Your code here
