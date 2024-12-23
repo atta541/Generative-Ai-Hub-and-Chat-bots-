@@ -74,7 +74,9 @@ MIDDLEWARE = [
     # 'api.middleware.YourMiddlewareClassName',
     'api.middleware.SomeCustomMiddleware',
     'allauth.account.middleware.AccountMiddleware',  # Add this line
-     'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # Add this line
+
 
     
 
@@ -183,15 +185,40 @@ CORS_ALLOW_ALL_ORIGINS = True
 # }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'new_db.sqlite3',  # Change to a new file name
+#         'OPTIONS': {
+#             'timeout': 60,
+#         }
+#     }
+# }
+
+
+
+
+###### to use postgress database on railway superadmin/user left to create
+import urllib.parse
+
+# Your PostgreSQL URL
+DATABASE_URL = 'postgresql://postgres:RKyTfHYMMJWbyuKJwWlxfFmjohBVxdGV@autorack.proxy.rlwy.net:36961/railway'
+
+# Parse the DATABASE_URL
+parsed_url = urllib.parse.urlparse(DATABASE_URL)
+
+# Set up the DATABASES configuration
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'new_db.sqlite3',  # Change to a new file name
-        'OPTIONS': {
-            'timeout': 60,
-        }
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': parsed_url.path[1:],  # Remove the leading '/' from the path
+        'USER': parsed_url.username,
+        'PASSWORD': parsed_url.password,
+        'HOST': parsed_url.hostname,
+        'PORT': parsed_url.port,
     }
 }
+
 
 allow_reuse=True
 
