@@ -148,6 +148,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import PromptInput from '../components/PromptInput';
 
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 const PersonalBot = () => {
     const [message, setMessage] = useState('');
     const [promptInstructions, setPromptInstructions] = useState('');
@@ -173,7 +175,7 @@ const PersonalBot = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/personalbot/', { 
+            const res = await axios.post(`${BASE_URL}/api/personalbot/`, { 
                 message, 
                 prompt_instructions: promptInstructions 
             }, {

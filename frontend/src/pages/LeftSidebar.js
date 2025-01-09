@@ -214,7 +214,9 @@ import Personalbot from '../chatbots/PersonalBot'
 import UOL from '../chatbots/Uol';
 import Llama32 from '../visionchatbots/llama32';
 import Welcomechatbot from '../chatbots/Welcomechatbot';
-
+import CricketBot from '../chatbots/CricketBot';
+import LlamaVisionFree from '../chatbots/LlamaVisionFree';
+import Gemini from '../chatbots/Gemini';
 // const videoStyle = {
 //   width: '100%',
 //   height: '100%',
@@ -265,6 +267,18 @@ function LeftSidebar() {
           >
             Llama3.1
           </button>
+
+
+
+          <button
+            className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
+            onClick={() => handleChatbotClick('LlamaVisionFree')}
+          >
+            LlamaVisionFree
+          </button>
+
+
+
           <button
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('Mixtral')}
@@ -311,6 +325,19 @@ function LeftSidebar() {
           >
             Chat with Atta
           </button>
+
+
+
+          <button
+            className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
+            onClick={() => handleChatbotClick('gemini')}
+          >
+            Chat with gemini pics
+          </button>
+
+
+
+
           <button
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('PDF')}
@@ -329,6 +356,12 @@ function LeftSidebar() {
           >
             Personal-Bot
           </button>
+          <button
+            className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
+            onClick={() => handleChatbotClick('cricketbot')}
+          >
+            Crikcet-Bot
+          </button>
         </div>
       </div>
 
@@ -343,11 +376,19 @@ function LeftSidebar() {
           <>
             {selectedChatbot === 'Llama3' && <Llama3Chatbot />}
             {selectedChatbot === 'Llama3.1' && <Llama31Chatbot />}
+            {selectedChatbot === 'LlamaVisionFree' && <LlamaVisionFree />}
+            {selectedChatbot === 'gemini' && <Gemini />}
+
+
             {selectedChatbot === 'Mixtral' && <MixtralChatbot />}
             {selectedChatbot === 'Claude' && <Claude />}
             {selectedChatbot === 'Gpt3.5' && <Gpt35 />}
             {selectedChatbot === 'Personalbot' && <Personalbot />}
             {selectedChatbot === 'llama3.2-11b' && <Llama32 />}
+
+
+            {selectedChatbot === 'cricketbot' && <CricketBot />}
+            {/* {selectedChatbot === 'llama3.2-11b' && <Llama32 />} */}
             {selectedChatbot === 'Gemma' && <Gemma />}
             {selectedChatbot === 'Uol' && <UOL />}
             {selectedChatbot === 'Atta' && <Atta />}

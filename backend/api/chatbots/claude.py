@@ -26,10 +26,6 @@ llm = ChatAnthropic(
     model_name="claude-3-5-sonnet-20240620"
 )
 
-
-
-
-
 memory = ConversationBufferMemory()
 conversation = ConversationChain(llm=llm, memory=memory)
 

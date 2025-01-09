@@ -1,12 +1,23 @@
+# from django.db import models
+
+# class UploadedPDF(models.Model):
+#     file = models.FileField(upload_to='pdfs/')
+#     uploaded_at = models.DateTimeField(auto_now_add=True)
+
+#     def __str__(self):
+#         return self.file.name
+
+
 from django.db import models
+from django.contrib.auth.models import User
 
 class UploadedPDF(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)  # Temporarily allow nulls
     file = models.FileField(upload_to='pdfs/')
     uploaded_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.file.name
-
 
 
 

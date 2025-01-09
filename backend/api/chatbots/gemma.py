@@ -8,6 +8,10 @@ from langchain_groq import ChatGroq
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from django.contrib.auth.models import User
+from langchain_core.messages import HumanMessage
+from langchain_google_vertexai import ChatVertexAI
+
+
 from decouple import config
 # 
 from ..models import Conversation, Chatbot  # Ensure correct import path
@@ -16,7 +20,7 @@ llm = ChatGroq(
     temperature=0,
     groq_api_key=config('GROQ_API_KEY'),
 
-    model_name="gemma-7b-it"
+    model_name="llama-guard-3-8b"
 )
 memory = ConversationBufferMemory()
 

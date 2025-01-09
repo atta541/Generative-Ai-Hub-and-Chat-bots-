@@ -50,7 +50,7 @@
 //     return (
 //         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
 //             <div className={`flex justify-between items-center  -mt-5  border-gray-300 ${darkMode ? '' : ''}`}>
-//                 <h2 className={`text-2xl text-black mt-8 ${darkMode ? 'text-white' : ''}`}>Chat with LLaMA-3 😳</h2>
+//                 <h2 className={`text-2xl text-black mt-8 ${darkMode ? 'text-white' : ''}`}>Chat with LLaMA-3  😳</h2>
 //                 <button
 //                     className="py-2 px-4 bg-blue-500 text-white rounded transition-colors duration-300 hover:bg-blue-700"
 //                     onClick={toggleDarkMode}
@@ -114,7 +114,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
-const Atta = () => {
+
+
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+const Llama3Chatbot = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
     const [darkMode, setDarkMode] = useState(false);
@@ -128,7 +132,7 @@ const Atta = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/llama3/', { message }, {
+            const res = await axios.post(`${BASE_URL}/api/llama3/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }
@@ -220,4 +224,4 @@ const Atta = () => {
     );
 };
 
-export default Atta;
+export default Llama3Chatbot;

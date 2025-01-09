@@ -4,6 +4,11 @@ import axios from 'axios';
 // import attaprofile from '../assets/attaprofile.jpg';
 import attaprofile from '../assets/attaprofile.jpg';
 
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
+
+
+
 const Atta = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
@@ -18,7 +23,10 @@ const Atta = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/atta/', { message }, {
+            // const res = await axios.post('http://127.0.0.1:8000/api/atta/', { message }, {
+                const res = await axios.post(`${BASE_URL}/api/atta/`, { message }, {
+                    
+
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }
@@ -53,7 +61,7 @@ const Atta = () => {
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300 ${darkMode ? '' : ''}`}>
                 <div className="flex items-center">
-                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Atta-ur-rehman</h2>
+                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Atta-ur-rehman cuurent</h2>
                     <img src={attaprofile} alt="Atta-ur-rehman" className="ml-4 w-12 h-12 rounded-full" />
                 </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import MainFooter from '../components/MainFooter';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -36,6 +37,9 @@ const Home = () => {
       <button className="explore-button" onClick={handleExplore}>
         Explore Our Chatbots
       </button>
+
+
+      <MainFooter/>
 
       <style jsx>{`
         .home-container {

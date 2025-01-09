@@ -2,6 +2,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
+
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 const Welcomechatbot = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
@@ -16,7 +20,7 @@ const Welcomechatbot = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/llama3/', { message }, {
+            const res = await axios.post(`${BASE_URL}/api/llama3/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }

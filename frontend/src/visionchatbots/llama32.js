@@ -121,6 +121,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 const Llama32 = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
@@ -135,7 +137,7 @@ const Llama32 = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/llama32.11b/', { message }, {
+            const res = await axios.post(`${BASE_URL}/api/llama32.11b/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }

@@ -134,6 +134,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { FaUser, FaEnvelope, FaLock, FaIdBadge } from 'react-icons/fa';
 
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 const Register = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -146,7 +148,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/register/', {
+      const response = await axios.post(`${BASE_URL}/api/register/`, {
         first_name: firstName,
         last_name: lastName,
         email,

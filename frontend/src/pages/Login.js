@@ -350,6 +350,10 @@ import { FaUser, FaLock } from 'react-icons/fa';
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 
+
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -367,7 +371,7 @@ const Login = () => {
                 const { email, given_name: firstName, family_name: lastName, picture } = userInfoResponse.data;
 
                 // Send user info to your backend
-                const { data } = await axios.post('http://localhost:8000/api/google-login/', {
+                const { data } = await axios.post(`${BASE_URL}/api/google-login/`, {
                     email,
                     first_name: firstName,
                     last_name: lastName,

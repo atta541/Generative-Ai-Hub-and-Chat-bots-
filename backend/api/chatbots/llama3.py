@@ -1,6 +1,3 @@
-
-
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -9,19 +6,7 @@ from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from django.contrib.auth.models import User
 from decouple import config
-from ..models import Conversation, Chatbot  # Ensure correct import path
-
-# LANGCHAIN_TRACING_V2="true"
-# LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-# LANGCHAIN_API_KEY="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"
-# LANGCHAIN_PROJECT="chatbothub"
-
-
-
-LANGCHAIN_TRACING_V2="true"
-LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-LANGCHAIN_API_KEY="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"
-LANGCHAIN_PROJECT="playground"
+from ..models import Conversation, Chatbot  
 
 
 # Initialize the LLM and memory
@@ -57,7 +42,7 @@ class Llama3APIView(APIView):
 
             # Create a new Conversation instance
             Conversation.objects.create(
-                user=user,  # Automatically associate with the logged-in user
+                user=user,  
                 chatbot=chatbot,
                 user_message=user_input,
                 bot_response=bot_response
@@ -65,11 +50,16 @@ class Llama3APIView(APIView):
 
             return Response({'response': bot_response}, status=status.HTTP_200_OK)
         return Response({'error': 'No message provided'}, status=status.HTTP_400_BAD_REQUEST)
+    
 
 
 
 
 
+
+
+
+    
 
 # from langchain import HuggingFaceEndpoint, ConversationChain, ConversationBufferMemory
 # from rest_framework.views import APIView

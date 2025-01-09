@@ -9,7 +9,7 @@
 
 
 
-#  from rest_framework.views import APIView
+# from rest_framework.views import APIView
 # from rest_framework.response import Response
 # from rest_framework import status
 # from langchain_groq import ChatGroq
@@ -26,10 +26,10 @@
 # llm = ChatOpenAI(
 #     model="gpt-3.5-turbo",
 #     temperature=0,
-#     # max_tokens=None,
-#     # timeout=None,
-#     # max_retries=2,
-#     # api_key=config('openai_api_key'),
+#     max_tokens=None,
+#     timeout=None,
+#     max_retries=2,
+#     api_key='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',
 
 
   
@@ -75,38 +75,47 @@
 
 
 
-import logging
-from django.conf import settings
-from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
+
+
+
+
+
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from ..models import Chatbot, Conversation, UserProfile
+from langchain_openai import ChatOpenAI
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferMemory
-from langchain_groq import ChatGroq
+from django.contrib.auth.models import User
+from ..models import Conversation, Chatbot
 from decouple import config
+import logging
 
 # Initialize logging
 logger = logging.getLogger(__name__)
 
 # Initialize the LLM and memory
-llm = ChatGroq(
-    temperature=0,
-    groq_api_key=config('GROQ_API_KEY'),
-    model_name='llama-3.1-70b-versatile'
-)
-memory = ConversationBufferMemory()
-
-# Initialize the ConversationChain
-conversation = ConversationChain(
-    llm=llm,
-    memory=memory
-)
+try:
+    llm = ChatOpenAI(
+        model="gpt-3.5-turbo",
+        temperature=0,
+        max_tokens=None,
+        timeout=None,
+        max_retries=2,
+        api_key=config('OPENAI_API_KEY')  # Use config for security
+    )
+    memory = ConversationBufferMemory()
+    conversation = ConversationChain(llm=llm, memory=memory)
+except Exception as e:
+    logger.error(f"Error initializing LLM: {e}")
+    llm = None
 
 class Gpt3_5APIView(APIView):
     def post(self, request, *args, **kwargs):
+        if not llm:
+            return Response({'error': 'Chatbot is not properly initialized'}, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+        
         user_input = request.data.get('message')
         if user_input:
             # Ensure the user is authenticated
@@ -115,36 +124,119 @@ class Gpt3_5APIView(APIView):
             
             user = request.user
 
-            # Get or create a user profile
-            try:
-                user_profile = UserProfile.objects.get(user=user)
-            except UserProfile.DoesNotExist:
-                logger.warning('User profile not found')
-                return Response({'error': 'User profile not found'}, status=status.HTTP_404_NOT_FOUND)
-
-            if not user_profile.is_subscribed:
-                logger.warning('User is not subscribed')
-                return Response({'error': 'You need to subscribe to access this chatbot'}, status=status.HTTP_403_FORBIDDEN)
-
             # Get or create a chatbot instance
-            chatbot, created = Chatbot.objects.get_or_create(name='llama3.1')
+            chatbot, created = Chatbot.objects.get_or_create(name='gpt-3.5')
 
             try:
                 # Get the bot response
                 bot_response = conversation.predict(input=user_input)
-                
+
                 # Create a new Conversation instance
                 Conversation.objects.create(
-                    user=user,  # Automatically associate with the logged-in user
+                    user=user,
                     chatbot=chatbot,
                     user_message=user_input,
                     bot_response=bot_response
                 )
-                
+
                 return Response({'response': bot_response}, status=status.HTTP_200_OK)
             
             except Exception as e:
-                logger.error(f"Error with external service: {e}")
-                return Response({'error': 'The chatbot service is currently unavailable. Please try again later.'}, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+                logger.error(f"Error during LLM prediction: {e}")
+                return Response({'error': 'Chatbot service error'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
         return Response({'error': 'No message provided'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import logging
+# from django.conf import settings
+# from django.http import JsonResponse
+# from django.views.decorators.csrf import csrf_exempt
+# from rest_framework.views import APIView
+# from rest_framework.response import Response
+# from rest_framework import status
+# from ..models import Chatbot, Conversation, UserProfile
+# from langchain.chains import ConversationChain
+# from langchain.chains.conversation.memory import ConversationBufferMemory
+# from langchain_groq import ChatGroq
+# from decouple import config
+
+# # Initialize logging
+# logger = logging.getLogger(__name__)
+
+# # Initialize the LLM and memory
+# llm = ChatGroq(
+#     temperature=0,
+#     groq_api_key=config('GROQ_API_KEY'),
+#     model_name='llama-3.1-70b-versatile'
+# )
+# memory = ConversationBufferMemory()
+
+# # Initialize the ConversationChain
+# conversation = ConversationChain(
+#     llm=llm,
+#     memory=memory
+# )
+
+# class Gpt3_5APIView(APIView):
+#     def post(self, request, *args, **kwargs):
+#         user_input = request.data.get('message')
+#         if user_input:
+#             # Ensure the user is authenticated
+#             if not request.user or not request.user.is_authenticated:
+#                 return Response({'error': 'User is not authenticated'}, status=status.HTTP_401_UNAUTHORIZED)
+            
+#             user = request.user
+
+#             # Get or create a user profile
+#             try:
+#                 user_profile = UserProfile.objects.get(user=user)
+#             except UserProfile.DoesNotExist:
+#                 logger.warning('User profile not found')
+#                 return Response({'error': 'User profile not found'}, status=status.HTTP_404_NOT_FOUND)
+
+#             if not user_profile.is_subscribed:
+#                 logger.warning('User is not subscribed')
+#                 return Response({'error': 'You need to subscribe to access this chatbot'}, status=status.HTTP_403_FORBIDDEN)
+
+#             # Get or create a chatbot instance
+#             chatbot, created = Chatbot.objects.get_or_create(name='llama3.1')
+
+#             try:
+#                 # Get the bot response
+#                 bot_response = conversation.predict(input=user_input)
+                
+#                 # Create a new Conversation instance
+#                 Conversation.objects.create(
+#                     user=user,  # Automatically associate with the logged-in user
+#                     chatbot=chatbot,
+#                     user_message=user_input,
+#                     bot_response=bot_response
+#                 )
+                
+#                 return Response({'response': bot_response}, status=status.HTTP_200_OK)
+            
+#             except Exception as e:
+#                 logger.error(f"Error with external service: {e}")
+#                 return Response({'error': 'The chatbot service is currently unavailable. Please try again later.'}, status=status.HTTP_503_SERVICE_UNAVAILABLE)
+        
+#         return Response({'error': 'No message provided'}, status=status.HTTP_400_BAD_REQUEST)

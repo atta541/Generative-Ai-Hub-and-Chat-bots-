@@ -59,6 +59,7 @@
 import React, { createContext, useState } from 'react';
 
 export const AuthContext = createContext();
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -67,7 +68,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (username, password) => {
         try {
-            const response = await fetch('http://localhost:8000/api/login/', {
+            const response = await fetch(`${BASE_URL}/api/login/`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

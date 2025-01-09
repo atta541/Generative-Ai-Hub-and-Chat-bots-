@@ -145,6 +145,10 @@ import axios from 'axios';
 import SubscriptionAlert from '../components/SubscriptionAlert';  // Import the SubscriptionAlert component
 import ErrorAlert from '../components/ErrorAlert';  // Import the ErrorAlert component
 
+
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 const Claude = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
@@ -162,7 +166,7 @@ const Claude = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/claude/', { message }, {
+            const res = await axios.post(`${BASE_URL}/api/claude/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }

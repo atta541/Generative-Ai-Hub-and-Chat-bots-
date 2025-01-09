@@ -29,6 +29,9 @@ from .chatbots.uol import UolAPIView
 from .views import website_info, all_data,google_login
 from .payment.stripe import create_subscription
 from .chatbots.personalbot import PersonalBotAPIView
+from .chatbots.cricketbot import CricketbotAPIView
+from .chatbots.llamavisionfree import LlamaVisionFreeAPIView
+# from .chatbots.gemini import GeminiAPIView
 
 from .visionmodels.llama32 import Llama32_11bVisionAPIView
 urlpatterns = [
@@ -48,8 +51,14 @@ urlpatterns = [
     path('llama3/', Llama3APIView.as_view(), name='llama3'),
     path('llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
     path('gpt3.5/', Gpt3_5APIView.as_view(), name='llama3.1'),
+    path('cricketbot/', CricketbotAPIView.as_view(), name='cricketbot'),
+
 
     path('mixtral/', MixtralAPIView.as_view(), name='mixtral'),
+    # path('gemini/', GeminiAPIView.as_view(), name='gemini'),
+
+    path('LlamaVisionFree/', LlamaVisionFreeAPIView.as_view(), name='Llama-Vision'),
+
 
 
     # path('api/claude/', ClaudeAPIView.as_view(), name='claude'),
@@ -60,6 +69,7 @@ urlpatterns = [
 
 
     path('gemma/', GemmaAPIView.as_view(), name='gemma'),
+
     path('uol/', UolAPIView.as_view(), name='uol'),
 
     path('atta/', AttaAPIView.as_view(), name='atta'),
@@ -97,7 +107,7 @@ urlpatterns = [
 
 
 
-        path('create-subscription/', create_subscription, name='create_subscription'),
+    path('create-subscription/', create_subscription, name='create_subscription'),
 
 ]
 

@@ -6,6 +6,9 @@ import SubscriptionAlert from '../components/SubscriptionAlert';
 import ErrorAlert from '../components/ErrorAlert';
 import Loader from '../components/Loader';  // Import the Loader component
 
+
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+
 const UOL = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
@@ -25,7 +28,7 @@ const UOL = () => {
         setLoading(true);  // Show the loader when starting to fetch data
 
         try {
-            const res = await axios.post('http://127.0.0.1:8000/api/uol/', { message }, {
+            const res = await axios.post(`${BASE_URL}/api/uol/`, { message }, {
 
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`

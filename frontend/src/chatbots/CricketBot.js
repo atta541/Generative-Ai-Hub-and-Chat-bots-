@@ -1,3 +1,5 @@
+
+
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import SubscriptionAlert from '../components/SubscriptionAlert';  
@@ -5,8 +7,9 @@ import ErrorAlert from '../components/ErrorAlert';
 import Loader from '../components/Loader';  // Import the Loader component
 
 
+
 const BASE_URL = process.env.REACT_APP_BASE_URL;
-const Gpt35 = () => {
+const CricketBot = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
     const [darkMode, setDarkMode] = useState(false);
@@ -25,7 +28,7 @@ const Gpt35 = () => {
         setLoading(true);  // Show the loader when starting to fetch data
 
         try {
-            const res = await axios.post(`${BASE_URL}/api/gpt3.5/`, { message }, {
+            const res = await axios.post(`${BASE_URL}/api/cricketbot/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }
@@ -89,7 +92,7 @@ const Gpt35 = () => {
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300 ${darkMode ? '' : ''}`}>
                 <div className="flex items-center">
-                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Gpt 3.5 </h2>
+                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with CricketBot</h2>
                 </div>
 
                 <button
@@ -169,4 +172,6 @@ const Gpt35 = () => {
     );
 };
 
-export default Gpt35;
+export default CricketBot;
+
+

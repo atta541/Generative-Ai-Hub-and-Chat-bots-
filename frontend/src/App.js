@@ -106,7 +106,7 @@ import Navbar from './components/Navbar';
 import Chatbot from './pages/LeftSidebar';
 import { AuthProvider, AuthContext } from './context/AuthContext'; // Import AuthContext
 import PrivateRoute from './context/PrivateRoute';
-import MainFooter from './components/MainFooter';
+// import MainFooter from './components/MainFooter';
 import LandingPage from './pages/LandingPage';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 // import { Elements } from '@stripe/react-stripe-js';
@@ -152,7 +152,7 @@ const MainContent = () => {
       </Routes>
 
       {/* Render MainFooter for all users */}
-      <MainFooter />
+      {/* <MainFooter /> */}
     </>
   );
 };
