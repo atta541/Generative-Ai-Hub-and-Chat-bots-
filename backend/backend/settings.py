@@ -275,7 +275,9 @@ CORS_ALLOWED_ORIGINS = [
     'https://1ea5-154-57-223-240.ngrok-free.app',  # Ngrok URL (if used)
     'https://c93c-119-73-112-226.ngrok-free.app',  # ngrok URL
     # 'http://192.168.1.8:3000',
-    'https://e9d2-119-63-138-252.ngrok-free.app'
+    'https://e9d2-119-63-138-252.ngrok-free.app',
+    'https://6ebd-223-123-42-180.ngrok-free.app'
+
 
 ]
 
@@ -295,7 +297,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '918a-154-57-223-112.ngrok-free.app','http://192.168.1.8:3000']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '918a-154-57-223-112.ngrok-free.app','http://192.168.1.8:3000','6ebd-223-123-42-180.ngrok-free.app','https://6ebd-223-123-42-180.ngrok-free.app']
 
 
 
