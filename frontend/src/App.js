@@ -106,16 +106,20 @@ import Navbar from './components/Navbar';
 import Chatbot from './pages/LeftSidebar';
 import { AuthProvider, AuthContext } from './context/AuthContext'; // Import AuthContext
 import PrivateRoute from './context/PrivateRoute';
-// import MainFooter from './components/MainFooter';
 import LandingPage from './pages/LandingPage';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import ResetPassword from './components/ResetPassword';
+import ForgotPassword from './components/ForgotPassword';
+import  {Contact}  from './pages/Contact';
+
 // import { Elements } from '@stripe/react-stripe-js';
 // import { loadStripe } from '@stripe/stripe-js';
 // import SubscriptionForm from './components/SubscriptionForm';
 
 
 // const stripePromise = loadStripe('pk_test_51PQQsWIJIsx7jmFZxeK72wC321674plCOCLaslbW7gEDLUpnFLixxrLGqCp5v2ZBoZKLjURFd5WEhkPfdTAywsNi00mHhvQ8Tc'); // Replace with your actual Stripe publishable key
-
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+const theme = createTheme();
 
 function App() {
   return (
@@ -144,11 +148,27 @@ const MainContent = () => {
 
         {/* Routes for login and register */}
         <Route path="/login" element={isAuthenticated ? <Home /> : <Login />} />
+
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/reset-password/:token" element={<ResetPassword />} />
+
         <Route path="/register" element={<Register />} />
+        <Route path="/contact" element={<Contact />} />
+
 
         {/* Authenticated routes */}
         <Route path="/home" element={<PrivateRoute><Home /></PrivateRoute>} />
-        <Route path="/chatbots" element={<PrivateRoute><Chatbot /></PrivateRoute>} />
+        <Route path="/chatbots" element={<PrivateRoute>
+          
+          
+          <ThemeProvider theme={theme}>
+
+          
+          <Chatbot />
+          </ThemeProvider>
+
+          
+          </PrivateRoute>} />
       </Routes>
 
       {/* Render MainFooter for all users */}

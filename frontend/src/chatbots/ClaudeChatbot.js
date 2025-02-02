@@ -166,6 +166,7 @@ const Claude = () => {
         setChatHistory(prev => [...prev, userMessage]);
 
         try {
+ 
             const res = await axios.post(`${BASE_URL}/api/claude/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`

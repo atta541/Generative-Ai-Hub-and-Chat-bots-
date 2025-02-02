@@ -61,7 +61,7 @@ const Atta = () => {
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300 ${darkMode ? '' : ''}`}>
                 <div className="flex items-center">
-                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Atta-ur-rehman cuurent</h2>
+                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Atta-ur-rehman </h2>
                     <img src={attaprofile} alt="Atta-ur-rehman" className="ml-4 w-12 h-12 rounded-full" />
                 </div>
 

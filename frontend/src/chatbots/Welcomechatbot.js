@@ -55,7 +55,7 @@ const Welcomechatbot = () => {
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300 ${darkMode ? '' : ''}`}>
                 <div className="flex items-center">
-                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Welcomechatbot</h2>
+                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Welcome chat bot</h2>
                 </div>
 
                 <button
