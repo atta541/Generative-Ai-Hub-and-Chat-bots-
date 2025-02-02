@@ -297,7 +297,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '918a-154-57-223-112.ngrok-free.app','http://192.168.1.8:3000','6ebd-223-123-42-180.ngrok-free.app','https://6ebd-223-123-42-180.ngrok-free.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '918a-154-57-223-112.ngrok-free.app','http://192.168.1.8:3000','6ebd-223-123-42-180.ngrok-free.app','https://6ebd-223-123-42-180.ngrok-free.app','https://generative-ai-hub-and-chat-bots.vercel.app/']
 
 
 
