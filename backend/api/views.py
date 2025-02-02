@@ -103,7 +103,7 @@ def user_conversations_view(request, user_id):
     context = {
         'conversations': conversations,
     }
-    return render(request, 'your_template.html', context)  # Adjust to your template
+    return render(request, 'admin/user_conversations.html', context)  # Adjust to your template
 
 
 

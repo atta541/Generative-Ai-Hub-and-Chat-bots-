@@ -40,6 +40,7 @@ from .chatbots.deepseek import ImageGenerationAPIView
 from .chatbots.agentsearch import TavilySearchAPIView
 from .chatbots.csv import CsvAPIView, CsvChat
 from .chatbots.islamicbot import IslamicBotAPIView
+from .chatbots.gpt4 import Gpt4APIView
 
 from .visionmodels.llama32 import Llama32_11bVisionAPIView
 urlpatterns = [
@@ -61,7 +62,9 @@ urlpatterns = [
     path('llama3/', Llama3APIView.as_view(), name='llama3'),
     path('llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
     path('gpt3.5/', Gpt3_5APIView.as_view(), name='gpt-3.5'),
-    path('gpt-4o/', IslamicBotAPIView.as_view(), name='gpt-4o'),
+    path('islamicbot/', IslamicBotAPIView.as_view(), name='islamicbot'),
+    path('gpt-4o/', Gpt4APIView.as_view(), name='gpt-4o'),
+
 
     path('cricketbot/', CricketbotAPIView.as_view(), name='cricketbot'),
 
