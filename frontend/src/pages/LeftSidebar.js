@@ -22,6 +22,7 @@ import FluxImage from '../chatbots/FluxImage';
 import Tavilysearch from '../chatbots/TavilySearch';
 import CSV from '../chatbots/CSV';
 import IslamicBot from '../chatbots/IslamicBot';
+import Gpt4 from '../chatbots/Gpt4';
 
 function LeftSidebar() {
   const location = useLocation();
@@ -103,6 +104,17 @@ function LeftSidebar() {
           >
             Chat with gpt 3.5
           </button>
+
+          <button
+            className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
+            onClick={() => handleChatbotClick('gpt4')}
+          >
+            Chat with gpt 4
+          </button>
+
+
+
+
           <button
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('Claude')}
@@ -159,13 +171,13 @@ function LeftSidebar() {
             onClick={() => handleChatbotClick('islamicbot')}
           >
             islamicbot
-            
+
           </button>
 
 
 
 
-          
+
           <button
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('CSV')}
@@ -177,7 +189,7 @@ function LeftSidebar() {
             className="bg-gray-700 text-white border-none py-3 rounded-md cursor-pointer w-full text-center text-lg font-sans transition-transform duration-100"
             onClick={() => handleChatbotClick('tavilysearch')}
           >
-            tavilysearch          </button>
+            Live Search Agent          </button>
 
 
 
@@ -221,6 +233,8 @@ function LeftSidebar() {
             {selectedChatbot === 'Mixtral' && <MixtralChatbot />}
             {selectedChatbot === 'Claude' && <Claude />}
             {selectedChatbot === 'Gpt3.5' && <Gpt35 />}
+            {selectedChatbot === 'gpt4' && <Gpt4 />}
+
             {selectedChatbot === 'Personalbot' && <Personalbot />}
             {selectedChatbot === 'llama3.2-11b' && <Llama32 />}
             {selectedChatbot === 'cricketbot' && <CricketBot />}

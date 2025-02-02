@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { FaUser, FaEnvelope, FaComment } from 'react-icons/fa';
+import MainFooter from "../components/MainFooter";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -37,6 +38,12 @@ export const Contact = () => {
   };
 
   return (
+
+<>
+
+
+
+
     <div className="flex items-center justify-center min-h-screen bg-gray-900">
       <div className="bg-gray-800 p-8 rounded-lg shadow-2xl w-full max-w-md space-y-6">
         <div className="flex items-center justify-center space-x-2">
@@ -89,5 +96,14 @@ export const Contact = () => {
         </form>
       </div>
     </div>
+
+
+
+    <MainFooter />
+
+
+
+    </>
+
   );
 };

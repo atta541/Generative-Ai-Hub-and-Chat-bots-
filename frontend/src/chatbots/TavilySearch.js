@@ -307,7 +307,7 @@ const TavilySearch = () => {
     return (
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300`}>
-                <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with Tavily Search</h2>
+                <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Search Agent</h2>
                 <button
                     className="py-2 px-4 bg-blue-500 text-white rounded transition-colors duration-300 hover:bg-blue-700"
                     onClick={toggleDarkMode}

@@ -25,7 +25,7 @@ const IslamicBot = () => {
         setLoading(true);  // Show the loader when starting to fetch data
 
         try {
-            const res = await axios.post(`${BASE_URL}/api/gpt-4o/`, { message }, {
+            const res = await axios.post(`${BASE_URL}/api/islamicbot/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }

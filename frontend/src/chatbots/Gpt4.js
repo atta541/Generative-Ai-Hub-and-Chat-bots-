@@ -1,15 +1,19 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
-
+import SubscriptionAlert from '../components/SubscriptionAlert';  
+import ErrorAlert from '../components/ErrorAlert';  
+import Loader from '../components/Loader';  // Import the Loader component
 
 
 const BASE_URL = process.env.REACT_APP_BASE_URL;
-
-const Welcomechatbot = () => {
+const Gpt4 = () => {
     const [message, setMessage] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
     const [darkMode, setDarkMode] = useState(false);
+    const [showSubscriptionAlert, setShowSubscriptionAlert] = useState(false);  
+    const [showErrorAlert, setShowErrorAlert] = useState(false);  
+    const [errorAlertMessage, setErrorAlertMessage] = useState(''); 
+    const [loading, setLoading] = useState(false);  // State for showing the loader
     const chatContainerRef = useRef(null);
 
     const handleSubmit = async (e) => {
@@ -18,21 +22,39 @@ const Welcomechatbot = () => {
 
         const userMessage = { type: 'user', text: message };
         setChatHistory(prev => [...prev, userMessage]);
+        setLoading(true);  // Show the loader when starting to fetch data
 
         try {
-            const res = await axios.post(`${BASE_URL}/api/llama3/`, { message }, {
+            const res = await axios.post(`${BASE_URL}/api/gpt-4o/`, { message }, {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('access_token')}`
                 }
             });
+
             const botResponse = res.data.response;
             const botMessage = { type: 'bot', text: botResponse };
             setChatHistory(prev => [...prev, botMessage]);
+            setShowErrorAlert(false);
+
         } catch (error) {
-            console.error('Error getting response from chatbot:', error);
-            const errorMessage = { type: 'bot', text: 'Error getting response from chatbot.' };
+            console.error('Error getting response from chatbot:', error.response ? error.response.data : error.message);
+
+            if (error.response && error.response.status === 403) {
+                // Show the subscription alert for subscription-related errors
+                setShowSubscriptionAlert(true);
+                setErrorAlertMessage('Your subscription is required to continue using this service.');
+            } else {
+                setErrorAlertMessage('There was an issue with the chatbot service. Please try again later.');
+            }
+
+            // Show error alert with the appropriate message
+            setShowErrorAlert(true);
+
+            // Add a bot message indicating the issue
+            const errorMessage = { type: 'bot', text: 'Their was an error please try later.' };
             setChatHistory(prev => [...prev, errorMessage]);
         } finally {
+            setLoading(false);  // Hide the loader after data is fetched
             setMessage('');
         }
     };
@@ -47,15 +69,27 @@ const Welcomechatbot = () => {
         setDarkMode(prevMode => !prevMode);
     };
 
+    const handleCloseSubscriptionAlert = () => {
+        setShowSubscriptionAlert(false);
+    };
+
+    const handleSubscribe = () => {
+        console.log('Redirecting to subscription page...');
+    };
+
+    const handleCloseErrorAlert = () => {
+        setShowErrorAlert(false);
+    };
+
     useEffect(() => {
         chatContainerRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, [chatHistory]);
- 
+
     return (
         <div className={`flex flex-col h-full font-sans ${darkMode ? 'bg-gray-900' : ''}`} style={{ width: '100%' }}>
             <div className={`flex justify-between items-center -mt-4 border-gray-300 ${darkMode ? '' : ''}`}>
                 <div className="flex items-center">
-                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Welcome chatbot</h2>
+                    <h2 className={`text-2xl ${darkMode ? 'text-white' : 'text-black'}`}>Chat with gpt4 </h2>
                 </div>
 
                 <button
@@ -82,7 +116,7 @@ const Welcomechatbot = () => {
                                         className="absolute top-1 right-1 text-gray-500 hover:text-gray-700"
                                         onClick={() => handleCopy(msg.text)}
                                     >
-                                        copy
+                                        Copy
                                     </button>
                                 )}
                             </div>
@@ -108,8 +142,33 @@ const Welcomechatbot = () => {
                     </button>
                 </div>
             </form>
+
+            {/* Subscription Alert */}
+            {showSubscriptionAlert && (
+                <SubscriptionAlert
+                    onClose={handleCloseSubscriptionAlert}
+                    onSubscribe={handleSubscribe}
+                />
+            )}
+
+            {/* Error Alert */}
+            {showErrorAlert && (
+                <ErrorAlert
+                    message={errorAlertMessage}
+                    onClose={handleCloseErrorAlert}
+                />
+            )}
+
+            {/* Loader */}
+            {loading && (
+                <div className="fixed inset-0 flex justify-center items-center bg-gray-800 bg-opacity-50">
+                    <Loader />
+                </div>
+            )}
         </div>
     );
 };
 
-export default Welcomechatbot;
+export default Gpt4;
+
+
