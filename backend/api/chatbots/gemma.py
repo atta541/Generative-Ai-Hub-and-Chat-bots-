@@ -1,6 +1,3 @@
-
-
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -20,7 +17,7 @@ llm = ChatGroq(
     temperature=0,
     groq_api_key=config('GROQ_API_KEY'),
 
-    model_name="llama-guard-3-8b"
+    model_name="gemma2-9b-it"
 )
 memory = ConversationBufferMemory()
 

@@ -50,8 +50,7 @@ from ..models import Conversation, Chatbot  # Ensure correct import path
 llm = ChatGroq(
     temperature=0,
     groq_api_key=config('GROQ_API_KEY'),
-#    model_name='llama-3.1-70b-versatile'
-model_name='llama-3.2-11b-vision-preview'
+    model_name='llama-3.2-11b-vision-preview'
 )
 memory = ConversationBufferMemory()
 

@@ -31,17 +31,27 @@ from .payment.stripe import create_subscription
 from .chatbots.personalbot import PersonalBotAPIView
 from .chatbots.cricketbot import CricketbotAPIView
 from .chatbots.llamavisionfree import LlamaVisionFreeAPIView
+from .auth.auth import forgot_password,reset_password
 # from .chatbots.gemini import GeminiAPIView
+from .chatbots.uolturbo import UolturboAPIView
+from .chatbots.deepseek import DeepSeekAPIView
+from .chatbots.deepseek import ImageGenerationAPIView
+# from .chatbots.tavilysearch import TavilySearchAPIView
+from .chatbots.agentsearch import TavilySearchAPIView
+from .chatbots.csv import CsvAPIView, CsvChat
+from .chatbots.islamicbot import IslamicBotAPIView
 
 from .visionmodels.llama32 import Llama32_11bVisionAPIView
 urlpatterns = [
-
 
     path('google-login/', google_login, name='google_login'),
 
     # path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('login/', login_page, name='login_page'),  
     path('register/', register_page, name='register'),
+    path('forgot-password/', forgot_password, name='forgot-password'),
+    path('reset-password/', reset_password, name='forgot-password'),
+
 
 
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
@@ -50,7 +60,9 @@ urlpatterns = [
     path('api/logout/', logout_view, name='logout'),
     path('llama3/', Llama3APIView.as_view(), name='llama3'),
     path('llama3.1/', Llama3_1APIView.as_view(), name='llama3.1'),
-    path('gpt3.5/', Gpt3_5APIView.as_view(), name='llama3.1'),
+    path('gpt3.5/', Gpt3_5APIView.as_view(), name='gpt-3.5'),
+    path('gpt-4o/', IslamicBotAPIView.as_view(), name='gpt-4o'),
+
     path('cricketbot/', CricketbotAPIView.as_view(), name='cricketbot'),
 
 
@@ -58,6 +70,12 @@ urlpatterns = [
     # path('gemini/', GeminiAPIView.as_view(), name='gemini'),
 
     path('LlamaVisionFree/', LlamaVisionFreeAPIView.as_view(), name='Llama-Vision'),
+    # path('deepseek/', DeepSeekAPIView.as_view(), name='deepseek'),
+
+    path('deepseek/', DeepSeekAPIView.as_view(), name='deepseek-api'),
+    path('generate-image/', ImageGenerationAPIView.as_view(), name='generate-image-api'),
+    path('tavilysearch/', TavilySearchAPIView.as_view(), name='tavilysearch-api'),
+
 
 
 
@@ -71,6 +89,8 @@ urlpatterns = [
     path('gemma/', GemmaAPIView.as_view(), name='gemma'),
 
     path('uol/', UolAPIView.as_view(), name='uol'),
+    path('uolturbo/', UolturboAPIView.as_view(), name='uolturbo'),
+
 
     path('atta/', AttaAPIView.as_view(), name='atta'),
 
@@ -78,6 +98,11 @@ urlpatterns = [
     
     path('upload_pdf/', PdfAPIView.as_view(), name='upload_pdf'),
     path('pdfchat/', PdfChat.as_view(), name='pdfchat'),
+
+    # //// csv chat
+
+    path('upload_csv/', CsvAPIView.as_view(), name='upload_csv'),
+    path('csvchat/', CsvChat.as_view(), name='csvchat'),
 
     # vision models 
 

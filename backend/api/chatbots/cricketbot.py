@@ -87,7 +87,9 @@ logger = logging.getLogger(__name__)
 # Initialize the fine-tuned LLM and memory
 try:
     llm = ChatOpenAI(
-        model="ft:gpt-3.5-turbo-0125:personal::AkqxHU1Z:ckpt-step-390",  # Use your fine-tuned model
+        # model="ft:gpt-3.5-turbo-0125:personal::AkqxHU1Z:ckpt-step-390",  # Use your fine-tuned model
+        model="ft:gpt-3.5-turbo-0125:personal::Aq6hJuQX",  # Use your fine-tuned model
+
         temperature=0,
         max_tokens=2048,  # Update based on your model's settings
         timeout=None,

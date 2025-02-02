@@ -5,10 +5,11 @@ from together import Together
 from decouple import config
 from ..models import Conversation, Chatbot
 
+
 # Initialize the Together client
 client = Together(api_key=config('TOGETHER_API_KEY'))
 
-class LlamaVisionFreeAPIView(APIView):
+class DeepSeekAPIView(APIView):
     def post(self, request, *args, **kwargs):
         user_input = request.data.get('message')
         if user_input:
@@ -20,12 +21,12 @@ class LlamaVisionFreeAPIView(APIView):
             user = request.user
 
             # Get or create a chatbot instance for Llama-Vision
-            chatbot, created = Chatbot.objects.get_or_create(name='Llama-Vision')
+            chatbot, created = Chatbot.objects.get_or_create(name='deepseek')
 
             try:
                 # Get the response from the Llama-Vision model using the Together API
                 response = client.chat.completions.create(
-                    model="meta-llama/Llama-Vision-Free",
+                    model="deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
                     messages=[{"role": "user", "content": user_input}],
                     max_tokens=None,
                     temperature=0.7,
@@ -41,19 +42,10 @@ class LlamaVisionFreeAPIView(APIView):
 
                 # Stream the response and build the complete message
                 for token in response:
-                    # Debugging: Check the response format
-                    print("Token received:", token)
-
-                    # Check if the token has 'choices' and if 'delta' exists
                     if hasattr(token, 'choices') and token.choices:
-                        delta = token.choices[0].delta  # Access delta directly
+                        delta = token.choices[0].delta
                         if delta and hasattr(delta, 'content') and delta.content:
-                            bot_response += delta.content  # Append content to the response
-                            # Debugging: Check the bot response part
-                            print("Bot response part:", delta.content)
-
-                # Debugging: Ensure bot_response is not empty
-                print("Final bot response:", bot_response)
+                            bot_response += delta.content
 
                 # Save the conversation in the database
                 Conversation.objects.create(
@@ -70,10 +62,28 @@ class LlamaVisionFreeAPIView(APIView):
                     return Response({'error': 'No response from bot'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
             except Exception as e:
-                # Handle exceptions during the API call
                 print(f"Error occurred: {e}")
                 return Response({'error': 'An error occurred while fetching the bot response'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         return Response({'error': 'No message provided'}, status=status.HTTP_400_BAD_REQUEST)
 
-
+class ImageGenerationAPIView(APIView):
+    def post(self, request, *args, **kwargs):
+        prompt = request.data.get('prompt')
+        if prompt:
+            try:
+                response = client.images.generate(
+                    prompt=prompt,
+                    model="black-forest-labs/FLUX.1-dev",
+                    width=1024,
+                    height=768,
+                    steps=28,
+                    n=1,
+                    response_format="b64_json"
+                )
+                image_data = response.data[0].b64_json
+                return Response({'image': image_data}, status=status.HTTP_200_OK)
+            except Exception as e:
+                print(f"Error occurred: {e}")
+                return Response({'error': 'An error occurred while generating the image'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        return Response({'error': 'No prompt provided'}, status=status.HTTP_400_BAD_REQUEST)
