@@ -15,7 +15,7 @@ const SubscriptionAlert = ({ onClose, onSubscribe }) => {
             <li>Exclusive updates and features</li>
             <li>Priority customer support</li>
           </ul>
-          <p className="text-lg font-semibold text-gray-800 mb-6">Subscription Charges: <span className="text-blue-600">$15/month</span></p>
+          <p className="text-lg font-semibold text-gray-800 mb-6">Subscription Charges: <span className="text-blue-600">$20/month</span></p>
           <div className="flex justify-between items-center">
             <button
               onClick={onClose}

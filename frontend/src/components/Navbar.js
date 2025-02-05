@@ -28,16 +28,24 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  // const handleSubscriptionClick = (event) => {
+  //   event.preventDefault();
+  //   if (isSubscribed  === true ) {
+  //     setShowAlreadySubscribedAlert(true);
+  //   } else {
+  //     setShowSubscriptionForm(true); // Show the SubscriptionForm if not subscribed
+  //   }
+  // };
+  
   const handleSubscriptionClick = (event) => {
     event.preventDefault();
-    if (isSubscribed  === true ) {
+    if (isSubscribed) {
       setShowAlreadySubscribedAlert(true);
     } else {
-      setShowSubscriptionForm(true); // Show the SubscriptionForm if not subscribed
+      setShowSubscriptionForm(true);
     }
   };
   
-
 
   const closeSubscriptionForm = () => {
     setShowSubscriptionForm(false); // Close the form when the close button is clicked

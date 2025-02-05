@@ -685,6 +685,7 @@ import { FaUser, FaLock } from 'react-icons/fa';
 import { useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 
+
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 const Login = () => {
@@ -694,7 +695,9 @@ const Login = () => {
   const [passwordError, setPasswordError] = useState('');
   const [generalMessage, setGeneralMessage] = useState('');
   const navigate = useNavigate();
-  const { setIsAuthenticated } = useContext(AuthContext);
+  // const { setIsAuthenticated } = useContext(AuthContext);
+  const { setIsAuthenticated, setIsSubscribed } = useContext(AuthContext);
+
 
   const handleGoogleSuccess = async (credentialResponse) => {
     const { access_token } = credentialResponse;
@@ -739,47 +742,86 @@ const Login = () => {
     scope: 'openid email profile',
   });
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setUsernameError('');
-    setPasswordError('');
-    setGeneralMessage('');
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   setUsernameError('');
+  //   setPasswordError('');
+  //   setGeneralMessage('');
 
-    if (!username) {
-      setUsernameError('Username is required');
-    }
-    if (!password) {
-      setPasswordError('Password is required');
-    }
-    if (!username || !password) {
-      return;
-    }
+  //   if (!username) {
+  //     setUsernameError('Username is required');
+  //   }
+  //   if (!password) {
+  //     setPasswordError('Password is required');
+  //   }
+  //   if (!username || !password) {
+  //     return;
+  //   }
 
-    try {
-      const response = await axios.post(`${BASE_URL}/api/login/`, {
-        username,
-        password,
-      });
-      // alert(response.data.is_subscribed);
+  //   try {
+  //     const response = await axios.post(`${BASE_URL}/api/login/`, {
+  //       username,
+  //       password,
+  //     });
+  //     alert(response.data.is_subscribed);
 
 
-      const { access, refresh } = response.data;
-      localStorage.setItem('access_token', access);
-      localStorage.setItem('refresh_token', refresh);
-      localStorage.setItem('is_subscribed', response.data.is_subscribed);
-      setIsAuthenticated(true);
-      navigate('/home');
-    } catch (error) {
-      const errorMessage = error.response?.data?.error || 'Login failed';
-      if (errorMessage.includes('username')) {
-        setUsernameError('Invalid username');
-      } else if (errorMessage.includes('password')) {
-        setPasswordError('Invalid password');
-      } else {
-        setGeneralMessage('Login failed. Please check your credentials.');
-      }
-    }
-  };
+  //     const { access, refresh } = response.data;
+  //     localStorage.setItem('access_token', access);
+  //     localStorage.setItem('refresh_token', refresh);
+  //     localStorage.setItem('is_subscribed', response.data.is_subscribed);
+  //     setIsAuthenticated(true);
+  //     navigate('/home');
+  //   } catch (error) {
+  //     const errorMessage = error.response?.data?.error || 'Login failed';
+  //     if (errorMessage.includes('username')) {
+  //       setUsernameError('Invalid username');
+  //     } else if (errorMessage.includes('password')) {
+  //       setPasswordError('Invalid password');
+  //     } else {
+  //       setGeneralMessage('Login failed. Please check your credentials.');
+  //     }
+  //   }
+  // };
+
+
+
+
+
+
+  // const { setIsAuthenticated, setIsSubscribed } = useContext(AuthContext);
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setUsernameError('');
+  setPasswordError('');
+  setGeneralMessage('');
+
+  if (!username || !password) {
+    if (!username) setUsernameError('Username is required');
+    if (!password) setPasswordError('Password is required');
+    return;
+  }
+
+  try {
+    const response = await axios.post(`${BASE_URL}/api/login/`, {
+      username,
+      password,
+    });
+
+    const { access, refresh, is_subscribed } = response.data;
+
+    localStorage.setItem('access_token', access);
+    localStorage.setItem('refresh_token', refresh);
+    localStorage.setItem('is_subscribed', is_subscribed);
+
+    setIsAuthenticated(true);
+    setIsSubscribed(is_subscribed); // Update context
+    navigate('/home');
+  } catch (error) {
+    setGeneralMessage('Login failed. Please check your credentials.');
+  }
+};
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-900">

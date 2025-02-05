@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import SubscriptionAlert from '../components/SubscriptionAlert';  
 import ErrorAlert from '../components/ErrorAlert';  
-import Loader from '../components/Loader';  // Import the Loader component
+import Loader from '../components/Loader';  
 
 
 const BASE_URL = process.env.REACT_APP_BASE_URL;
@@ -13,7 +13,7 @@ const IslamicBot = () => {
     const [showSubscriptionAlert, setShowSubscriptionAlert] = useState(false);  
     const [showErrorAlert, setShowErrorAlert] = useState(false);  
     const [errorAlertMessage, setErrorAlertMessage] = useState(''); 
-    const [loading, setLoading] = useState(false);  // State for showing the loader
+    const [loading, setLoading] = useState(false);  
     const chatContainerRef = useRef(null);
 
     const handleSubmit = async (e) => {
