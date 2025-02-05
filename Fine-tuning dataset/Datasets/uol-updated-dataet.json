@@ -1,0 +1,1592 @@
+[
+    {
+        "instruction": "When was the University of Lahore established?",
+        "context": "The University of Lahore (Punjabi: \u0644\u06c1\u0648\u0631 \u06cc\u0648\u0646\u06cc\u0648\u0631\u0633\u0679\u06cc; Urdu: \u062c\u0627\u0645\u0639\u06c1 \u0644\u0627\u06c1\u0648\u0631), abbreviated as UOL, is a private university located in Lahore, Punjab, Pakistan.",
+        "response": "The University of Lahore was founded at the collegiate level in 1999 under the IBADAT Educational Trust and was granted full degree awarding status in 2002.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who is the founder of the University of Lahore?",
+        "context": "",
+        "response": "The founder of the University of Lahore is M.A. Raoof.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How many campuses does the University of Lahore have?",
+        "context": "",
+        "response": "The University of Lahore has seven campuses across Pakistan.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "In which cities are the campuses of the University of Lahore located?",
+        "context": "",
+        "response": "The campuses of the University of Lahore are located in Lahore, Islamabad, Sargodha, Pakpattan, Gujrat, and Uganda.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the affiliations of the University of Lahore?",
+        "context": "",
+        "response": "The University of Lahore is affiliated with HEC, PEC, PMDC, PCP, PNC, and PBC.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "How many academic faculties does the University of Lahore have?",
+        "context": "",
+        "response": "The University of Lahore has 11 academic faculties.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is the total student body of the University of Lahore?",
+        "context": "",
+        "response": "The total student body from all campuses of the University of Lahore is approximately 36,000+.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What is the highest ranking achieved by the University of Lahore according to the HEC of Pakistan?",
+        "context": "",
+        "response": "The University of Lahore has achieved the highest W4 category ranking with the Higher Education Commission (HEC) of Pakistan.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are some faculties and departments of the University of Lahore?",
+        "context": "",
+        "response": "Some faculties and departments of the University of Lahore include Faculty of Allied Health Sciences, Faculty of Arts and Architecture, Faculty of Engineering and Technology, Faculty of Information and Technology, Faculty of Languages and Literature, Faculty of Medicine and Dentistry, Faculty of Management Sciences, Faculty of Pharmacy, Faculty of Sciences, and Faculty of Social Sciences.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are some research journals published by the University of Lahore?",
+        "context": "",
+        "response": "Some research journals published by the University of Lahore include Pakistan Journal of Molecular Medicine (PJMM), Journal of Media, Business and Social Sciences (JMBSS), and Asian Journal of Allied Health Sciences (AJAHS).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What facilities are available for international students at the University of Lahore?",
+        "context": "",
+        "response": "The University of Lahore provides separate hostel accommodation for both male and female international students. The facilities include mess, mosque, separate television room, telephone, newspapers, guest rooms, common room, computer room, electric water coolers, high-speed internet and wi-fi, hostel laundry, and 24-hour security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are some of the rankings achieved by the University of Lahore?",
+        "context": "",
+        "response": "The University of Lahore has been ranked among the top universities globally, regionally, and nationally. Some of its rankings include ARWU World, QS World University Rankings, Times Higher Education World University Rankings, BRICS & Emerging Economies University Rankings, and UI Green Metric Ranking.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I submit my Admission Form?",
+        "context": "We are accepting Admission Forms though online admission portal. By hand or by courier forms will not be accepted.",
+        "response": "You can submit your Admission Form through the online admission portal.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What is the procedure for payment of the admission fee?",
+        "context": "You can pay online Rs: 2000/-via Credit /Debit Card while online form submission or visit UOL Campus to buy prospectus and get Form/Voucher number.",
+        "response": "You can pay the admission fee online via Credit/Debit Card during online form submission or visit the UOL Campus to buy a prospectus and get a Form/Voucher number.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the general instructions for applicants?",
+        "context": "An applicant can apply in three degree programs at a time. However, he or she will not be charged for extra choice.",
+        "response": "Applicants can apply for up to three degree programs simultaneously without additional charges.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What documents are required to be uploaded with the online Admission Form?",
+        "context": "Original scan/hard copies of the following documents are required to be uploaded on online admission Form: a) 01 recent blue/white background passport size photographs b) All academics documents i.e (Matric, Inter, Bachelor and Master degrees or IBCC /HEC equivalent c) CNIC card of the applicant or Form B or Father CNIC.",
+        "response": "The required documents to be uploaded with the online Admission Form include one recent passport size photograph with blue/white background, all academic documents (Matric, Inter, Bachelor, and Master degrees or IBCC/HEC equivalent), and CNIC card of the applicant or Form B or Father's CNIC.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What is the basis for selection of applicants?",
+        "context": "The selection of applicant shall be on merit, determined on the basis of marks obtained in the last examination, entry test / interview (if any) and such other criteria as University may determine.",
+        "response": "Applicants are selected based on merit, determined by marks obtained in the last examination, entry test/interview (if any), and other criteria determined by the University.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What is the status of admissions granted?",
+        "context": "All admissions are granted on \u201cProvisional\u201d basis. It is the sole responsibility of the selected applicants to provide proof of their eligibility within 3 weeks of the declaration of the result failing which their admission will be cancelled.",
+        "response": "Admissions are granted on a provisional basis. Selected applicants must provide proof of their eligibility within 3 weeks of the declaration of the result, failing which their admission will be cancelled.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What happens if the Admission Form is incomplete?",
+        "context": "Incomplete Admission Forms will be rejected.",
+        "response": "Incomplete Admission Forms will be rejected.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the cautions for applicants?",
+        "context": "The applicants are strongly encouraged to take special care of the fee deadlines after getting admission otherwise he or she will be deprived of admission.",
+        "response": "Applicants are strongly encouraged to adhere to fee deadlines to avoid deprivation of admission.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can foreign/international applicants get more information?",
+        "context": "For Foreign/International Applicants please visit Office of Students Affairs (OSA).",
+        "response": "Foreign/International Applicants can get more information by visiting the Office of Students Affairs (OSA).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What facilities are available for hostel accommodation?",
+        "context": "Separate hostel accommodation is available for both male and female students at The University of Lahore (UoL).",
+        "response": "Separate hostel accommodation is available for both male and female students at The University of Lahore (UoL).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the campuses of the University of Lahore?",
+        "context": "The University of Lahore has seven campuses across Pakistan.",
+        "response": "The University of Lahore has seven campuses across Pakistan.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find more information about the admissions process?",
+        "context": "Please visit our website http://uol.edu.pk/admissions/ for more information about the admissions process.",
+        "response": "Please visit our website http://uol.edu.pk/admissions/ for more information about the admissions process.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for Allied Health Sciences postgraduate program?",
+        "context": "",
+        "response": "You can find the admission guide for the Allied Health Sciences postgraduate program on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for the undergraduate program in Allied Health Sciences?",
+        "context": "",
+        "response": "The admission guide for the undergraduate program in Allied Health Sciences can be accessed through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get information about admissions for the College of Law?",
+        "context": "",
+        "response": "Information about admissions for the College of Law can be obtained from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for the Department of Economics?",
+        "context": "",
+        "response": "You can access the admission guide for the Department of Economics through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for the Department of Chemistry?",
+        "context": "",
+        "response": "The admission guide for the Department of Chemistry can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I obtain the admission guide for the Department of Computer Sciences?",
+        "context": "",
+        "response": "You can obtain the admission guide for the Department of Computer Sciences from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get information about admissions for the Department of Education?",
+        "context": "",
+        "response": "Information about admissions for the Department of Education can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for the Department of Electric Engineering?",
+        "context": "",
+        "response": "You can access the admission guide for the Department of Electric Engineering through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for the Department of English Language & Literature?",
+        "context": "",
+        "response": "The admission guide for the Department of English Language & Literature is available on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I obtain the admission guide for the Department of Environmental Sciences?",
+        "context": "",
+        "response": "You can obtain the admission guide for the Department of Environmental Sciences from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find information about admissions for the Department of Islamic Studies?",
+        "context": "",
+        "response": "Information about admissions for the Department of Islamic Studies can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for the Department of Mathematics & Statistics?",
+        "context": "",
+        "response": "You can access the admission guide for the Department of Mathematics & Statistics through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get the admission guide for the Department of Physics?",
+        "context": "",
+        "response": "The admission guide for the Department of Physics can be obtained from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I find information about admissions for the Department of Sociology?",
+        "context": "",
+        "response": "Information about admissions for the Department of Sociology can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I obtain the admission guide for the Department of Software Engineering?",
+        "context": "",
+        "response": "You can obtain the admission guide for the Department of Software Engineering from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for the Department of Technology?",
+        "context": "",
+        "response": "You can access the admission guide for the Department of Technology through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for the Department of Urdu?",
+        "context": "",
+        "response": "The admission guide for the Department of Urdu is available on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I obtain information about admissions for the Faculty of Pharmacy?",
+        "context": "",
+        "response": "You can obtain information about admissions for the Faculty of Pharmacy from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get the admission guide for the Institute of Molecular Biology & Biotechnology?",
+        "context": "",
+        "response": "The admission guide for the Institute of Molecular Biology & Biotechnology can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access information about admissions for Lahore Business School?",
+        "context": "",
+        "response": "You can access information about admissions for Lahore Business School from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for Lahore School of Aviation?",
+        "context": "",
+        "response": "The admission guide for Lahore School of Aviation is available on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I obtain the admission guide for Lahore School of Behavioural Sciences?",
+        "context": "",
+        "response": "You can obtain the admission guide for Lahore School of Behavioural Sciences from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get information about admissions for Lahore School of Nursing?",
+        "context": "",
+        "response": "Information about admissions for Lahore School of Nursing can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access the admission guide for School of Architecture?",
+        "context": "",
+        "response": "You can access the admission guide for School of Architecture through the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find information about admissions for School of Creative Arts?",
+        "context": "",
+        "response": "Information about admissions for School of Creative Arts can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I obtain the admission guide for School of Integrated Social Sciences?",
+        "context": "",
+        "response": "You can obtain the admission guide for School of Integrated Social Sciences from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I get the admission guide for School of Accountancy and Finance?",
+        "context": "",
+        "response": "The admission guide for School of Accountancy and Finance can be obtained from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How can I access information about admissions for the Department of Intelligent Systems?",
+        "context": "",
+        "response": "You can access information about admissions for the Department of Intelligent Systems from the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Where can I find the admission guide for the Department of Urdu?",
+        "context": "",
+        "response": "The admission guide for the Department of Urdu can be found on the University of Lahore's website or by contacting the admissions office.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Who is the current HOD of the Computer Science department?",
+        "context": "The current HOD of the Computer Science department is Mehtab Afzal, Associate Professor/HOD of Computer Science and IT at UOL - Main Campus.",
+        "response": "The current HOD of the Computer Science department is Mehtab Afzal.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How many semesters does the BS Computer Science program have?",
+        "context": "The BS Computer Science program has 8 semesters, spread over a 4-year degree.",
+        "response": "The BS Computer Science program has 8 semesters.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which subjects will be taught in the BS Computer Science program?",
+        "context": "The BS Computer Science program includes the following subjects across 8 semesters, totaling 130 credit hours:",
+        "response": "The subjects taught in the BS Computer Science program are:\n\n**SEMESTER 1**\n- Introduction to ICT - 3 CR. HR.\n- Islamic Studies / Ethics - 2 CR. HR.\n- Calculus and Analytical Geometry - 3 CR. HR.\n- English Composition and Comprehension - 3 CR. HR.\n- Applied Physics - 3 CR. HR.\n- Pakistan Studies - 2 CR. HR.\n\n**SEMESTER 2**\n- Digital Logic Design - 4 CR. HR.\n- Programming Fundamentals - 4 CR. HR.\n- Communication and Presentation Skills - 3 CR. HR.\n- Probability & Statistics - 3 CR. HR.\n- University Elective - I - 3 CR. HR.\n\n**SEMESTER 3**\n- Computer Organization and Assembly Language - 4 CR. HR.\n- Object-Oriented Programming - 4 CR. HR.\n- Professional Practices - 3 CR. HR.\n- Discrete Structures - 3 CR. HR.\n- Computer Science Supporting - I - 3 CR. HR.\n\n**SEMESTER 4**\n- Software Engineering - 3 CR. HR.\n- Theory of Automata - 3 CR. HR.\n- Linear Algebra - 3 CR. HR.\n- Data Structures and Algorithms - 4 CR. HR.\n- University Elective - II - 3 CR. HR.\n\n**SEMESTER 5**\n- Compiler Construction - 3 CR. HR.\n- Database Systems - 4 CR. HR.\n- Computer Science Supporting - II - 3 CR. HR.\n- Design and Analysis of Algorithm - 3 CR. HR.\n- Computer Science Supporting - III - 3 CR. HR.\n\n**SEMESTER 6**\n- Operating Systems - 4 CR. HR.\n- Computer Networks - 4 CR. HR.\n- CS Elective - I - 3 CR. HR.\n- CS Elective - II - 3 CR. HR.\n- Technical and Business Writing - 3 CR. HR.\n\n**SEMESTER 7**\n- Artificial Intelligence - 4 CR. HR.\n- CS Elective - III - 3 CR. HR.\n- Final Year Project - I - 3 CR. HR.\n- University Elective - III - 3 CR. HR.\n- Parallel and Distributed Computing - 3 CR. HR.\n\n**SEMESTER 8**\n- University Elective - IV - 3 CR. HR.\n- CS Elective - IV - 3 CR. HR.\n- Final Year Project - II - 3 CR. HR.\n- Information Security - 3 CR. HR.\n- CS Elective - V - 3 CR. HR.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Can I take admission after FSC Medical?",
+        "context": "",
+        "response": "Yes, you can take admission in Computer Science after FSC Medical.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Can I take admission after Pre-Engineering?",
+        "context": "",
+        "response": "Yes, you can take admission in Computer Science after Pre-Engineering.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Can I take admission after I.Com?",
+        "context": "",
+        "response": "Yes, you can take admission in Computer Science after I.Com.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What's the minimum marks required to take admission in Computer Science?",
+        "context": "The minimum marks required is 60% as per HEC instructions. Additionally, candidates must pass an entry test.",
+        "response": "The minimum marks required to take admission in Computer Science is 60%, and candidates must pass the entry test.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What's the fee structure of BS Computer Science?",
+        "context": "The fee for BS Computer Science in 2024 is approximately 160,000 PKR. For further guidance, you can check the university's website or visit the admissions office.",
+        "response": "The fee for BS Computer Science in 2024 is approximately 160,000 PKR. For more details, please check our website or visit the admissions office.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Are there any scholarships available for students?",
+        "context": "The University of Lahore offers various scholarships for deserving students, including need-based scholarships, Qarz-e-Hasna, sports-based scholarships, and scholarships for top students.",
+        "response": "Yes, the University of Lahore offers numerous scholarships for deserving students, such as need-based scholarships, Qarz-e-Hasna, sports-based scholarships, and awards for top students.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "How many days a week do students have to attend classes?",
+        "context": "The number of class days depends on the university's schedule and the semester requirements.",
+        "response": "The number of days students have to attend classes depends on the university's schedule and the specific semester.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What happens if a student fails in any subject?",
+        "context": "If a student fails in any subject, they are required to repeat that subject.",
+        "response": "If a student fails in any subject, they have to repeat it.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What are the university timings?",
+        "context": "The university is open from Monday to Saturday, from 6 AM to 9 PM.",
+        "response": "The university is open from Monday to Saturday, from 6 AM to 9 PM.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Tell me about Dr. Mudasser Naseer.",
+        "context": "Dr. Mudasser Naseer is an Associate Professor in the Department of CS & IT at the University of Lahore. He earned his M.Phil. in Statistics from Govt. College University, Lahore, and his MS in CS from LUMS Lahore. He completed his Ph.D. in Pattern Recognition from Beijing University of Aeronautics and Astronautics, China. Dr. Mudasser has previously worked at COMSATS Lahore and Wenzhou-Kean University, China. His research interests include data science, pattern recognition, and machine learning.",
+        "response": "Dr. Mudasser Naseer is an Associate Professor at the University of Lahore. He has a Ph.D. in Pattern Recognition from Beijing University of Aeronautics and Astronautics and has worked at COMSATS Lahore and Wenzhou-Kean University. His research focuses on data science, pattern recognition, and machine learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Which subjects does Dr. Mudasser Naseer teach?",
+        "context": "Dr. Mudasser Naseer teaches courses related to data science, pattern recognition, and machine learning at the University of Lahore.",
+        "response": "Dr. Mudasser Naseer teaches subjects related to data science, pattern recognition, and machine learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Dr. Mehtab Afzal.",
+        "context": "Dr. Mehtab Afzal holds a Ph.D. in Computer Applied Technology from Southwest Jiaotong University, China. He is currently an Associate Professor and Head of the Computer Science & IT Department at The University of Lahore. His research includes semantic technologies for web applications, and he has published in journals like Knowledge-based Systems and Neurocomputing. Dr. Mehtab is also a book author and serves as a Reviewer for various journals.",
+        "response": "Dr. Mehtab Afzal is an Associate Professor and Head of the Computer Science & IT Department at The University of Lahore. He holds a Ph.D. in Computer Applied Technology from Southwest Jiaotong University, China. His research includes semantic technologies and he has published widely in international journals. He is also an author and serves as a Reviewer for several academic journals.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Dr. Mehtab Afzal's research interests?",
+        "context": "Dr. Mehtab Afzal's research interests include Computer Vision, Multimedia Information Retrieval, and Big Data.",
+        "response": "Dr. Mehtab Afzal's research interests encompass Computer Vision, Multimedia Information Retrieval, and Big Data.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Toqir A. Rana.",
+        "context": "Toqir A. Rana completed his PhD from Universiti Sains Malaysia and has over 12 years of academic experience. He is currently an Associate Professor at the Computer Science and IT Department, The University of Lahore. His research interests include data mining, text mining, sentiment analysis, and NLP. He has published numerous articles and serves as an academic editor for Plos One and a reviewer for several top journals.",
+        "response": "Toqir A. Rana is an Associate Professor at The University of Lahore with a PhD from Universiti Sains Malaysia. He has over 12 years of experience in academia and his research focuses on data mining, text mining, sentiment analysis, and NLP. He has published extensively and serves as an academic editor for Plos One and a reviewer for various top journals.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Toqir A. Rana's research interests and professional roles?",
+        "context": "Toqir A. Rana's research interests include data mining, text mining, sentiment analysis, and NLP. He is an academic editor for Plos One and a reviewer for several top-ranked international journals. He has also supervised numerous Ph.D. and master's students.",
+        "response": "Toqir A. Rana's research interests are in data mining, text mining, sentiment analysis, and NLP. He is an academic editor for Plos One and a reviewer for several top-ranked journals. He has supervised many Ph.D. and master's students.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Nadeem Iqbal.",
+        "context": "Nadeem Iqbal received his M.Phil. in Computational Science and Engineering from NUST, Islamabad, and his Ph.D. in Computer Science from NCBA&E. He is currently an Assistant Professor at the Department of Computer Science and IT at The University of Lahore. He has worked in various academic institutions and has guided numerous undergraduate and master\u2019s students.",
+        "response": "Nadeem Iqbal is an Assistant Professor at The University of Lahore. He holds an M.Phil. in Computational Science and Engineering from NUST and a Ph.D. in Computer Science from NCBA&E. He has experience guiding both undergraduate and master\u2019s students in various academic institutions.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Nadeem Iqbal's research interests?",
+        "context": "Nadeem Iqbal's research interests include image cryptography, cyber security, image processing, and computer graphics.",
+        "response": "Nadeem Iqbal's research interests include image cryptography, cyber security, image processing, and computer graphics.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Dr. Sajid Ullah Khan.",
+        "context": "Dr. Sajid Ullah Khan is an Assistant Professor at The University of Lahore, where he has been serving since September 2015. He completed his Ph.D. in Information and Communication Engineering from Zhengzhou University, China, supported by grants from the National Natural Science Foundation of China and the National Key Research and Development Program. Dr. Khan has published extensively and his research interests include computer vision, semantic technologies, computational photonics, and nanotechnology.",
+        "response": "Dr. Sajid Ullah Khan is an Assistant Professor at The University of Lahore, with a Ph.D. in Information and Communication Engineering from Zhengzhou University. His research is supported by significant grants and includes interests in computer vision, semantic technologies, and computational photonics. He has published widely and contributes to a funded UOL-SRGP project.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Dr. Sajid Ullah Khan's research interests?",
+        "context": "Dr. Sajid Ullah Khan's research interests span computer vision, semantic technologies, computational photonics and nanotechnology, knowledge formalisms, context-aware systems, data warehousing and mining, and software engineering.",
+        "response": "Dr. Sajid Ullah Khan's research interests include computer vision, semantic technologies, computational photonics and nanotechnology, knowledge formalisms, context-aware systems, data warehousing and mining, and software engineering.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Shehla Saeed.",
+        "context": "Shehla Saeed is an Assistant Professor at The University of Lahore, having joined in 2012. She completed her MS in Computer Science and became an Assistant Professor in 2018. Her work focuses on software engineering and information security.",
+        "response": "Shehla Saeed is an Assistant Professor at The University of Lahore, specializing in software engineering and information security. She has been with UOL since 2012 and was promoted to Assistant Professor in 2018.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Shehla Saeed's research interests?",
+        "context": "Shehla Saeed\u2019s research interests include software engineering and information security.",
+        "response": "Shehla Saeed's research interests are in software engineering and information security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Naveed Ahmed Khan.",
+        "context": "Mr. Naveed Ahmed Khan is the senior most faculty member in the Computer Science & IT department at The University of Lahore, with over 22 years of service. He holds an MSCS from the University of Management Sciences, Lahore, and is pursuing a PhD in Data Sciences. His research focuses on Machine Learning and Deep Learning.",
+        "response": "Mr. Naveed Ahmed Khan has over 22 years of experience at The University of Lahore. He holds an MSCS and is pursuing a PhD in Data Sciences. His research interests are in Machine Learning and Deep Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are some achievements of Mr. Naveed Ahmed Khan?",
+        "context": "Mr. Naveed Ahmed Khan has served as the former Head of the Computer Science & IT Department and played a key role in implementing SAP at the university. He was also the first Branch Counselor of the IEEE Student Branch at UOL.",
+        "response": "Mr. Naveed Ahmed Khan was formerly the Head of the Computer Science & IT Department and led the implementation of SAP at the university. He was also the first Branch Counselor of the IEEE Student Branch at UOL.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Hammad Hasan Qureshi.",
+        "context": "Mr. Hammad Hasan Qureshi began his career as a lecturer at The University of Lahore in September 2012 and became an assistant professor in 2015. He has a bachelor's degree in computer science from UCP and a master's degree from The University of Wales, UK.",
+        "response": "Mr. Hammad Hasan Qureshi joined The University of Lahore as a lecturer in September 2012 and became an assistant professor in 2015. He holds a bachelor's degree from UCP and a master's degree from The University of Wales, UK.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Which courses does Mr. Hammad Hasan Qureshi teach?",
+        "context": "Mr. Hammad Hasan Qureshi teaches Database Systems, Distributed Database Systems, and Human-Computer Interaction in the CS & IT department at The University of Lahore.",
+        "response": "Mr. Hammad Hasan Qureshi teaches Database Systems, Distributed Database Systems, and Human-Computer Interaction.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Tayyab.",
+        "context": "Mr. Muhammad Tayyab completed his MS in Computational Logic from Dresden University of Technology, Germany, in 2007. He has been with the Department of Computer Science and IT at The University of Lahore since February 2008.",
+        "response": "Mr. Muhammad Tayyab completed his MS in Computational Logic from Dresden University of Technology, Germany, in 2007 and has been with the Department of Computer Science and IT at The University of Lahore since February 2008.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Mr. Muhammad Tayyab?",
+        "context": "Mr. Muhammad Tayyab's research interests include Non-monotonic reasoning, weak completion semantics, and Description logics.",
+        "response": "Mr. Muhammad Tayyab's research interests include Non-monotonic reasoning, weak completion semantics, and Description logics.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Dr. Ehsan Elahi.",
+        "context": "Dr. Ehsan Elahi is an Assistant Professor at the University of Lahore, Pakistan. He has a Ph.D. in Computer Science and Technology from Carlos University Madrid, Spain, in 2023, and Master and Bachelor degrees in Computer Science from FAST-NU, Pakistan.",
+        "response": "Dr. Ehsan Elahi is an Assistant Professor at the University of Lahore. He has a Ph.D. in Computer Science and Technology from Carlos University Madrid, Spain, and degrees from FAST-NU, Pakistan.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Dr. Ehsan Elahi?",
+        "context": "Dr. Ehsan Elahi's research interests include Web Readability and Accessibility, Information Retrieval, Computer Vision, Human-Computer Interaction, and Computer Networks.",
+        "response": "Dr. Ehsan Elahi's research interests include Web Readability and Accessibility, Information Retrieval, Computer Vision, Human-Computer Interaction, and Computer Networks.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Muhammad Shahzad.",
+        "context": "Muhammad Shahzad holds an MSCS in Computer Science from The University of Lahore and is a Ph.D. Scholar under the guidance of Associate Prof. Dr. Muhammad Arif, listed in the top 2% Scientists by Stanford University. He serves as an Assistant Professor in the Computer Science & IT Department at The University of Lahore.",
+        "response": "Muhammad Shahzad is an Assistant Professor at The University of Lahore, currently pursuing a Ph.D. under Associate Prof. Dr. Muhammad Arif. He holds an MSCS in Computer Science from The University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Muhammad Shahzad?",
+        "context": "Muhammad Shahzad is actively researching Security in Internet of Vehicles, a cutting-edge area in computational technologies. He has published a paper on Computational Technologies for Malicious Traffic Identification in IoT Networks.",
+        "response": "Muhammad Shahzad's research interests include Security in Internet of Vehicles and computational technologies for IoT networks. He has published work on malicious traffic identification in IoT networks.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What certifications does Muhammad Shahzad hold?",
+        "context": "Muhammad Shahzad has certifications from CISCO including CCNA (Route & Switch), CCNP (Route & Switch), and CCIE (Data Center).",
+        "response": "Muhammad Shahzad holds CISCO certifications including CCNA, CCNP, and CCIE in Data Center.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Atif Ikram.",
+        "context": "Atif Ikram is an Assistant Professor in the Computer Science Department at the University of Lahore. He holds master's degrees in Computer Science and Quality Management from the University of South Asia and Superior University, respectively. He is currently pursuing a Ph.D. in Computer Science from University Malaysia Terengganu.",
+        "response": "Atif Ikram is an Assistant Professor at the University of Lahore, with master's degrees in Computer Science and Quality Management. He is pursuing a Ph.D. in Computer Science from University Malaysia Terengganu.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Atif Ikram?",
+        "context": "Atif Ikram's research includes Empirical Software Engineering (ESE), Machine Learning, Data Science, and eLearning. He has published more than 13 research papers in various international journals and conferences.",
+        "response": "Atif Ikram's research interests include Empirical Software Engineering, Machine Learning, Data Science, and eLearning. He has over 13 publications in international journals and conferences.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Khurram Ejaz.",
+        "context": "Khurram Ejaz earned his Ph.D. from Universiti Teknologi Malaysia (UTM) and holds an M.S.C.S. from the University Central Punjab (UCP), Lahore. He has been an Assistant Professor at the University of Lahore since 2021. Previously, he worked as a lecturer at the University of Gujrat and the Federal Urdu University of Arts, Science, and Technology.",
+        "response": "Khurram Ejaz holds a Ph.D. from Universiti Teknologi Malaysia and an M.S.C.S. from the University Central Punjab. He is an Assistant Professor at the University of Lahore and has previously lectured at the University of Gujrat and the Federal Urdu University.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Khurram Ejaz?",
+        "context": "Khurram Ejaz's research focuses on pattern recognition and computer vision. He is also an active member of the Virtual Reality Laboratory (Vicube lab) at UTM and has authored several indexed articles.",
+        "response": "Khurram Ejaz's research interests include pattern recognition and computer vision. He is a member of the Virtual Reality Laboratory (Vicube lab) at UTM and has authored several indexed articles.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Dr. Shahid Yousaf.",
+        "context": "Dr. Shahid Yousaf earned his Ph.D. in computer science from The University of Lahore in 2022 and completed his MS(CS) from University of Central Punjab in 2010. He has been with the Department of Computer Science & Information Technology at The University of Lahore since February 2011.",
+        "response": "Dr. Shahid Yousaf has a Ph.D. in computer science from The University of Lahore and an MS(CS) from University of Central Punjab. He has been with the University of Lahore's Computer Science & IT department since February 2011.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Dr. Shahid Yousaf?",
+        "context": "Dr. Shahid Yousaf's research focuses on Formal Modeling & Verification of complex systems and Context Aware Multi Agent Planning. He has various publications in the area of Formal Methods.",
+        "response": "Dr. Shahid Yousaf specializes in Formal Modeling & Verification of complex systems and Context Aware Multi Agent Planning. His research includes various publications in Formal Methods.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Abdul Ghaffar.",
+        "context": "Abdul Ghaffar is a foreign qualified professional with an MS from the UK, awarded with distinction. With 15 years of experience in IT, including server management, cloud services, software development, and DevOps, he currently serves as a Lecturer in Computer Science at the University of Lahore. He is passionate about exploring new methodologies and mentoring BSCS FYP students.",
+        "response": "Abdul Ghaffar, with an MS from the UK and 15 years of IT experience, specializes in server management, cloud services, software development, and DevOps. He is a Lecturer at the University of Lahore and mentors BSCS FYP students.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Which subjects does Abdul Ghaffar teach?",
+        "context": "Abdul Ghaffar teaches courses such as Data Communication Network, Human Computer Interaction, Java Software Development, Mobile Application Development (Flutter), and Web Development (MongoDB, Express, ReactJS, NodeJS) at the University of Lahore.",
+        "response": "Abdul Ghaffar teaches Data Communication Network, Human Computer Interaction, Java Software Development, Mobile Application Development (Flutter), and Web Development (MongoDB, Express, ReactJS, NodeJS) at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Muhammad Irfan.",
+        "context": "Muhammad Irfan holds an M.S. in Computer Science from the University of Lahore. He has more than 10 years of professional experience in the IT industry, including the telecom sector. He is a Microsoft Certified Professional and has completed various certifications in networking, cyber security, and databases. He has been an Assistant Professor at the University of Lahore since 2021.",
+        "response": "Muhammad Irfan has an M.S. in Computer Science from the University of Lahore and over 10 years of IT experience, including in the telecom sector. He is a Microsoft Certified Professional and has various certifications in networking, cyber security, and databases. He has been an Assistant Professor at the University of Lahore since 2021.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are the research interests of Muhammad Irfan?",
+        "context": "Muhammad Irfan's research interests include Cyber Security, Network Security, and Digital Forensics. He has various publications in these areas.",
+        "response": "Muhammad Irfan's research interests are in Cyber Security, Network Security, and Digital Forensics. He has several publications in these fields.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad's research interests?",
+        "context": "Mr. Muhammad's research interests are in the domain of Natural Language Processing (NLP).",
+        "response": "Mr. Muhammad's research interests are in Natural Language Processing (NLP).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Nadeem Akhtar.",
+        "context": "Muhammad Nadeem Akhtar is an IT expert with over 17 years of university teaching experience and 8 years in industry roles, including as IT Manager at Riphah International University and Fast Developers. He is a Huawei Certified Academy Instructor and HCIA (R&S). He holds a BSc in Pre-Engineering, MSc in Computer Sciences, and MS in Computer Science, and is currently pursuing a PhD in Computer Science. He works as a Senior Lecturer at The University of Lahore.",
+        "response": "Mr. Muhammad Nadeem Akhtar has over 17 years of teaching experience and 8 years in IT management roles. He is a Huawei Certified Instructor and is pursuing a PhD in Computer Science at The University of Lahore, where he also works as a Senior Lecturer.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad Nadeem Akhtar's research interests?",
+        "context": "Mr. Muhammad Nadeem Akhtar's research interests include Networks, Wireless Sensor Networks, Image Encryption/Cryptography, and Machine Learning.",
+        "response": "Mr. Muhammad Nadeem Akhtar's research interests are in Networks, Wireless Sensor Networks, Image Encryption/Cryptography, and Machine Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Asmara Akram.",
+        "context": "Asmara Akram earned her MS in Computer Science from COMSATS University Lahore in 2019, specializing in BPMN and NLP. She started her career as a Lecturer in 2018. Asmara is a passionate learner with a strong commitment to teaching and research.",
+        "response": "Asmara Akram holds an MS in Computer Science from COMSATS University Lahore with a focus on BPMN and NLP. She began her career as a Lecturer in 2018 and is dedicated to both teaching and research.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Asmara Akram's research interests?",
+        "context": "Asmara Akram specializes in BPMN (Business Process Model and Notation) and NLP (Natural Language Processing).",
+        "response": "Asmara Akram's research interests include BPMN (Business Process Model and Notation) and NLP (Natural Language Processing).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mariya Bibi.",
+        "context": "Mariya Bibi completed her M.Phil in Computer Science from PUCIT, University of the Punjab, Lahore. She has been a Lecturer at the CS and IT department of the University of Lahore (UOL) since 2021. She teaches courses in Programming Fundamentals, Object-Oriented Programming, Information Security, Digital and Logical Design, and Professional Practices. She also supervises final-year projects and is involved in mentoring students.",
+        "response": "Mariya Bibi holds an M.Phil in Computer Science from PUCIT, University of the Punjab. She has been serving as a Lecturer at the University of Lahore since 2021, teaching various programming-related subjects and supervising final-year projects.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mariya Bibi's research interests?",
+        "context": "Mariya Bibi's research focuses on Artificial Intelligence, Modeling and Simulations, System Behavior, Data Mining, Machine Learning, Agent-Based Modeling, and Software Systems.",
+        "response": "Mariya Bibi's research interests include Artificial Intelligence, Modeling and Simulations, System Behavior, Data Mining, Machine Learning, Agent-Based Modeling, and Software Systems.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Amber Sarfraz.",
+        "context": "Amber Sarfraz holds a BS in Software Engineering from FJWU, Rawalpindi, and an MS in Computer Science from CUI, Lahore Campus. She is currently pursuing her Ph.D. in Computer Science at CUI, Lahore Campus and serves as a Lecturer at the University of Lahore, Lahore Campus.",
+        "response": "Amber Sarfraz holds a BS in Software Engineering from FJWU and an MS in Computer Science from CUI, Lahore. She is pursuing her Ph.D. in Computer Science at CUI and works as a Lecturer at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Amber Sarfraz's research interests?",
+        "context": "Amber Sarfraz's research interests include Cyber Security and Software Engineering.",
+        "response": "Amber Sarfraz's research interests focus on Cyber Security and Software Engineering.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Yasin Nasir.",
+        "context": "Mr. Muhammad Yasin Nasir received the MPhil. degree in Computer Science from PUCIT, University of the Punjab in 2019. He is currently serving as a Lecturer in the Department of Computer Science & IT at The University of Lahore, Lahore, Pakistan.",
+        "response": "Mr. Muhammad Yasin Nasir received his MPhil in Computer Science from PUCIT, University of the Punjab in 2019. He is currently a Lecturer in the Department of Computer Science & IT at The University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad Yasin Nasir's research interests?",
+        "context": "Mr. Muhammad Yasin Nasir's research interests include virtual reality (VR) and Machine Learning.",
+        "response": "Mr. Muhammad Yasin Nasir's research interests focus on virtual reality (VR) and Machine Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Muhammad Abdullah.",
+        "context": "Muhammad Abdullah joined The University of Lahore in 2022 as a Lecturer in the Department of CS & IT. He has taught various courses including computer networks, data structures and algorithms, programming fundamentals, advanced software engineering, and introduction to information and communication technologies. He completed his MSCS from COMSATS University Islamabad, Lahore campus, and his BSCS from GC University, Lahore. He also served as a visiting lecturer at the National University of Modern Languages (NUML), Lahore.",
+        "response": "Muhammad Abdullah joined The University of Lahore in 2022 as a Lecturer in the Department of CS & IT. He teaches courses such as computer networks, data structures and algorithms, and advanced software engineering. He earned his MSCS from COMSATS University Islamabad, Lahore campus, and his BSCS from GC University, Lahore. He has also served as a visiting lecturer at NUML, Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Abdullah's research interests?",
+        "context": "Muhammad Abdullah's research interests include computer networks, vehicular ad-hoc networks, and vehicular named data networks. His research work entitled 'Interest flooding attack mitigation in a vehicular named data network' has been published in IET ITS journal with IF 2.56.",
+        "response": "Muhammad Abdullah's research interests focus on computer networks, vehicular ad-hoc networks, and vehicular named data networks. His research on 'Interest flooding attack mitigation in a vehicular named data network' has been published in IET ITS journal.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Naila Rafique.",
+        "context": "Naila Rafique is a Lecturer at the University of Lahore with a Bachelor of Science in Information Technology from the University of Sargodha and a Master of Science in Computer Science from the University of Lahore. She has published in Springer and has previously served as a Visiting Lecturer at Minhaj University Lahore. She supervises undergraduate projects and teaches subjects including programming fundamentals, databases, and information security.",
+        "response": "Naila Rafique is a Lecturer at the University of Lahore with a BS in Information Technology from the University of Sargodha and an MS in Computer Science from the University of Lahore. She has published research in Springer and previously served as a Visiting Lecturer at Minhaj University Lahore. Her teaching includes programming fundamentals, databases, and information security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Naila Rafique's achievements and roles?",
+        "context": "Naila Rafique has published in Springer and has served as a Visiting Lecturer at Minhaj University Lahore. She supervises final year projects and teaches a variety of subjects including programming fundamentals, databases, and information security.",
+        "response": "Naila Rafique has published in Springer, served as a Visiting Lecturer at Minhaj University Lahore, and supervises final year projects. She teaches programming fundamentals, databases, and information security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Namra Tahir.",
+        "context": "Ms. Namra Tahir is a Lecturer at The University of Lahore since 2022, holding an MS in Computer Science from Government College University Lahore and a BS from Government College Women University Sialkot. She has taught at GCWUS and instructs subjects like Compiler Construction and Design Analysis and Algorithms.",
+        "response": "Ms. Namra Tahir is a Lecturer at The University of Lahore since 2022. She holds an MS in Computer Science from Government College University Lahore and a BS from Government College Women University Sialkot. She teaches Compiler Construction and Design Analysis and Algorithms.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Namra Tahir's research interests?",
+        "context": "Ms. Namra Tahir's research interests include Information Security, Cryptography, and Deep Learning.",
+        "response": "Ms. Namra Tahir's research interests include Information Security, Cryptography, and Deep Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Iqra Sabeen.",
+        "context": "Ms. Iqra Sabeen is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. She completed her MS in Computer Science from COMSATS University Islamabad in January 2021 and her Bachelor's from COMSATS Islamabad in 2018. She has also worked as a Visiting Lecturer at Govt Postgraduate College and Virtual University.",
+        "response": "Ms. Iqra Sabeen is a Lecturer at The University of Lahore, with an MS in Computer Science from COMSATS University Islamabad and a Bachelor's from the same institution. She has experience as a Visiting Lecturer at Govt Postgraduate College and Virtual University.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Iqra Sabeen's research interests?",
+        "context": "Ms. Iqra Sabeen's research interests include Machine Learning and Deep Learning.",
+        "response": "Ms. Iqra Sabeen's research interests are Machine Learning and Deep Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Nimra Shafiq.",
+        "context": "Ms. Nimra Shafiq is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. She is currently pursuing a Ph.D. in Computer Science from COMSATS University Islamabad, Lahore Campus, and has completed her MS in Computer Science from the same institution.",
+        "response": "Ms. Nimra Shafiq is a Lecturer at The University of Lahore and is pursuing a Ph.D. in Computer Science from COMSATS University Islamabad, Lahore Campus. She completed her MS in Computer Science from COMSATS University Islamabad.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Nimra Shafiq's research interests?",
+        "context": "Ms. Nimra Shafiq's research interests include Machine Learning, Deep Learning, Digital Image Processing, and Natural Language Processing.",
+        "response": "Ms. Nimra Shafiq's research interests are Machine Learning, Deep Learning, Digital Image Processing, and Natural Language Processing.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Mishal Muneer.",
+        "context": "Ms. Mishal Muneer holds a Master of Science in Software Engineering from NUST and is currently a Lecturer at the University of Lahore, where she teaches Artificial Intelligence and Machine Learning. She has received multiple accolades for her academic achievements, including being a Silver Medalist and securing high positions in various exhibitions. Her industry experience includes working as a Front-End Developer at Brownfox Technology.",
+        "response": "Ms. Mishal Muneer holds a Master of Science in Software Engineering from NUST and serves as a Lecturer at the University of Lahore, where she teaches Artificial Intelligence and Machine Learning. She is recognized for her academic excellence, industry experience, and contributions to research.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Mishal Muneer's research interests?",
+        "context": "Ms. Mishal Muneer's research interests include Data Engineering, Machine Learning, Natural Language Processing, and Artificial Intelligence. She has published research on topics such as content-based filtering and software requirement engineering.",
+        "response": "Ms. Mishal Muneer's research interests are Data Engineering, Machine Learning, Natural Language Processing, and Artificial Intelligence. She has published notable research in these areas.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Saman Asad.",
+        "context": "Ms. Saman Asad is a distinguished lecturer in the Computer Science Department at the University of Lahore. She holds an MSCS from the University of Lahore and is known for her dynamic teaching style and passion for inspiring future computer scientists.",
+        "response": "Ms. Saman Asad is a distinguished lecturer in the Computer Science Department at the University of Lahore. She has an MSCS from the University of Lahore and is recognized for her dynamic teaching style and passion for inspiring future computer scientists.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Saman Asad's research interests?",
+        "context": "Ms. Saman Asad's research interests include the Internet of Things, Game Theory, and Artificial Intelligence.",
+        "response": "Ms. Saman Asad's research interests include the Internet of Things, Game Theory, and Artificial Intelligence.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Majid Hussain.",
+        "context": "Mr. Muhammad Majid Hussain is a Lecturer in Computer Science at the University of Lahore, specializing in machine learning and data science. He holds a BS in Information Technology from Khwaja Fareed University of Engineering and Information Technology and an MS in Computer Science from the University of Engineering and Technology, Lahore. He has previously worked as a Police Communication Officer at the Punjab Safe Cities Authority and is actively involved in research.",
+        "response": "Mr. Muhammad Majid Hussain is a Lecturer in Computer Science at the University of Lahore, specializing in machine learning and data science. He holds a BS in Information Technology from Khwaja Fareed University of Engineering and Information Technology and an MS in Computer Science from the University of Engineering and Technology, Lahore. He has previously worked as a Police Communication Officer at the Punjab Safe Cities Authority and is actively involved in research.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad Majid Hussain's academic achievements?",
+        "context": "Mr. Muhammad Majid Hussain holds a BS in Information Technology with the 3rd position from Khwaja Fareed University of Engineering and Information Technology, and an MS in Computer Science with the 2nd position from the University of Engineering and Technology, Lahore.",
+        "response": "Mr. Muhammad Majid Hussain holds a BS in Information Technology with the 3rd position from Khwaja Fareed University of Engineering and Information Technology, and an MS in Computer Science with the 2nd position from the University of Engineering and Technology, Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Rabia Shabbir Ranjha.",
+        "context": "Ms. Rabia Shabbir Ranjha is currently working as a Lecturer in the Computer Science Department at the University of Lahore. She has 1 year of experience teaching at the university level. She completed her MS in Computer Science in 2022 from the University of Lahore.",
+        "response": "Ms. Rabia Shabbir Ranjha is a Lecturer in the Computer Science Department at the University of Lahore. With 1 year of teaching experience at the university level, she completed her MS in Computer Science from the University of Lahore in 2022. Her research interests include Machine Learning, Deep Learning, and Artificial Intelligence.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Rabia Shabbir Ranjha's research interests?",
+        "context": "Ms. Rabia Shabbir Ranjha's research interests include Machine Learning, Deep Learning, and Artificial Intelligence.",
+        "response": "Ms. Rabia Shabbir Ranjha's research interests include Machine Learning, Deep Learning, and Artificial Intelligence.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Tahseen Fatima.",
+        "context": "Tahseen Fatima is serving as a Lecturer in the Department of Computer Science at The University of Lahore. She obtained her Master's in Information Technology (MIT) from Punjab University, Lahore, and then completed an MPhil in Computer Science from Imperial College of Business Studies, Lahore. Her career began at the Virtual University of Pakistan, followed by nearly three years as a lecturer at the University of Sialkot.",
+        "response": "Tahseen Fatima is a Lecturer in the Department of Computer Science at The University of Lahore. She earned her Master's in Information Technology from Punjab University, Lahore, and an MPhil in Computer Science from Imperial College of Business Studies, Lahore. She began her career at the Virtual University of Pakistan and served nearly three years at the University of Sialkot. Her research interests include machine learning and information security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Tahseen Fatima's research interests?",
+        "context": "Tahseen Fatima's research interests include machine learning and information security.",
+        "response": "Tahseen Fatima's research interests include machine learning and information security.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ali Raza.",
+        "context": "Ali Raza is a lecturer in the Department of Computer Science & IT at The University of Lahore. His research interests include deep reinforcement learning for games, multi-agent reinforcement learning, multi-agent systems, and transfer learning.",
+        "response": "Ali Raza is a lecturer in the Department of Computer Science & IT at The University of Lahore. His research interests include deep reinforcement learning for games, multi-agent reinforcement learning, multi-agent systems, and transfer learning. He is passionate about teaching and research, actively mentoring students and contributing to cutting-edge AI research.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ali Raza's research interests?",
+        "context": "Ali Raza's research interests include deep reinforcement learning for games, multi-agent reinforcement learning, multi-agent systems, and transfer learning.",
+        "response": "Ali Raza's research interests include deep reinforcement learning for games, multi-agent reinforcement learning, multi-agent systems, and transfer learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Saqib Mahmood.",
+        "context": "Saqib Mahmood is a lecturer in the Department of Computer Science & IT at The University of Lahore. He completed his MS in Computer Science from Khwaja Fareed University of Engineering and Information Technology in 2022, where he received a Distinction certificate (Gold Medalist). His research focuses on computer vision and image processing algorithms, using machine and deep learning techniques, and exploring data science methods to enhance accuracy and efficiency.",
+        "response": "Saqib Mahmood is a lecturer in the Department of Computer Science & IT at The University of Lahore. He earned his MS in Computer Science from Khwaja Fareed University of Engineering and Information Technology in 2022, where he was awarded a Distinction certificate (Gold Medalist). His research interests include developing and optimizing computer vision and image processing algorithms using machine and deep learning techniques, as well as applying data science methods to improve these algorithms.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Saqib Mahmood's research interests?",
+        "context": "Saqib Mahmood's research interests focus on the development and optimization of computer vision and image processing algorithms using machine and deep learning techniques, and exploring data science methods to enhance accuracy and efficiency.",
+        "response": "Saqib Mahmood's research interests include developing and optimizing computer vision and image processing algorithms using machine and deep learning techniques, and exploring data science methods to enhance accuracy and efficiency.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Uzma Sanam.",
+        "context": "Uzma Sanam is a dedicated university lecturer with a profound commitment to higher education. She holds an M.Phil in Computer Science from Punjab University and has 6 years of experience in academia. Her expertise lies in computer science and cloud computing. Known for her engaging teaching style, Uzma fosters critical thinking and a deep understanding of cloud computing among her students.",
+        "response": "Uzma Sanam is a dedicated lecturer with an M.Phil in Computer Science from Punjab University. With 6 years of experience in academia, she specializes in computer science and cloud computing. Known for her engaging teaching style, Uzma inspires and mentors students, fostering critical thinking and a deep understanding of cloud computing. Her commitment to education and research significantly contributes to shaping future Computer Science professionals.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Uzma Sanam's areas of expertise?",
+        "context": "Uzma Sanam specializes in computer science and cloud computing, and she has a strong commitment to fostering critical thinking and a deep understanding of these subjects among her students.",
+        "response": "Uzma Sanam specializes in computer science and cloud computing. She is dedicated to fostering critical thinking and a deep understanding of these subjects among her students.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Nadeem Nadir.",
+        "context": "Mr. Muhammad Nadeem Nadir joined the University of Lahore in February 2023 as a Lecturer in the Department of Computer Science & IT. He holds a Bachelor's degree in Computer Science from the University of Sargodha and an MS in Computer Science from Capital University Science and Technology, Islamabad. His research focuses on CPU-GPU Optimization, GP-GPU, Machine Learning, and Cloud Computing.",
+        "response": "Mr. Muhammad Nadeem Nadir joined the University of Lahore in February 2023 as a Lecturer in the Department of Computer Science & IT. He holds a Bachelor's degree in Computer Science from the University of Sargodha and an MS in Computer Science from Capital University Science and Technology, Islamabad. His research interests include CPU-GPU Optimization, GP-GPU, Machine Learning, and Cloud Computing.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad Nadeem Nadir's research interests?",
+        "context": "Mr. Muhammad Nadeem Nadir's research focuses on CPU-GPU Optimization, GP-GPU, Machine Learning, and Cloud Computing.",
+        "response": "Mr. Muhammad Nadeem Nadir's research interests include CPU-GPU Optimization, GP-GPU, Machine Learning, and Cloud Computing.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Iqra Adnan.",
+        "context": "Ms. Iqra Adnan is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. She completed her MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "response": "Ms. Iqra Adnan is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. She completed her MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Iqra Adnan's research interests?",
+        "context": "Ms. Iqra Adnan's research interests include Internet of Vehicles, Internet of Things, and Machine Learning.",
+        "response": "Ms. Iqra Adnan's research interests include Internet of Vehicles, Internet of Things, and Machine Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Sadia Hameed.",
+        "context": "Sadia Hameed is a Lecturer at the University of Lahore, Pakistan. She completed her Master of Science in Information Technology from the University of Gujrat in 2013 and earned another Master's degree in Information Technology from the same institution in 2022. Her research focuses on sports analytics. Since joining the Arid Agriculture University in October 2022, she has taught subjects including Introduction to Computing, Software Engineering, Programming Fundamentals, and Database Management.",
+        "response": "Sadia Hameed is a Lecturer at the University of Lahore. She completed her Master of Science in Information Technology from the University of Gujrat in 2013 and earned another Master's degree in 2022. Her research interests include sports analytics. She has been teaching various subjects such as Introduction to Computing, Software Engineering, Programming Fundamentals, and Database Management since joining the Arid Agriculture University in October 2022.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Sadia Hameed's research interests?",
+        "context": "Sadia Hameed's research interests include sports analytics.",
+        "response": "Sadia Hameed's research interests include sports analytics.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Duaa-e-Nadeem.",
+        "context": "Ms. Duaa-e-Nadeem is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore, Lahore. She completed her MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "response": "Ms. Duaa-e-Nadeem is a Lecturer at The University of Lahore. She completed her MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Duaa-e-Nadeem's research interests?",
+        "context": "Ms. Duaa-e-Nadeem's research interests include Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing.",
+        "response": "Ms. Duaa-e-Nadeem's research interests include Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Ms. Azka Aziz.",
+        "context": "Ms. Azka Aziz completed her MS in Computer Science with a specialization in Software Engineering from Virtual University Pakistan in 2020. She also holds an MCS degree from Islamia University, Bahawalpur. Since February 2023, she has been working as a Lecturer in the Department of Computer Science at the University of Lahore (UOL).",
+        "response": "Ms. Azka Aziz completed her MS in Computer Science with a specialization in Software Engineering from Virtual University Pakistan in 2020 and an MCS degree from Islamia University, Bahawalpur. Since February 2023, she has been a Lecturer in the Department of Computer Science at the University of Lahore (UOL).",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Ms. Azka Aziz's research interests?",
+        "context": "Ms. Azka Aziz's research interests are in Software Engineering, Machine Learning, and Deep Learning. She is also an IEEE registered reviewer.",
+        "response": "Ms. Azka Aziz's research interests include Software Engineering, Machine Learning, and Deep Learning. She is also an IEEE registered reviewer.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Mr. Muhammad Zaman Aslam.",
+        "context": "Mr. Muhammad Zaman Aslam is working as a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore, Lahore. He completed his MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "response": "Mr. Muhammad Zaman Aslam is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. He completed his MS in Computer Science from COMSATS University Islamabad, Lahore Campus.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Muhammad Zaman Aslam's research interests?",
+        "context": "Mr. Muhammad Zaman Aslam's research interests include Data Communication and Networks, as well as Wireless Communication, particularly mm-wave wireless communications.",
+        "response": "Mr. Muhammad Zaman Aslam's research interests include Data Communication and Networks, and Wireless Communication, specifically mm-wave wireless communications.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Muhammad Ahmad Zia.",
+        "context": "Muhammad Ahmad Zia is a Jr. Lecturer at the Department of Computer Science and Information Technology, University of Lahore. He completed his BS in Computer Science from the University of Central Punjab with the highest CGPA.",
+        "response": "Muhammad Ahmad Zia is currently a Jr. Lecturer at the Department of Computer Science and Information Technology, University of Lahore. He earned his BS in Computer Science from the University of Central Punjab, Lahore, with the highest CGPA.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Ahmad Zia's areas of interest?",
+        "context": "Muhammad Ahmad Zia is interested in Data Mining and Analysis, Game Development, and Online Education. He has earned over 20 certifications from international organizations and institutes.",
+        "response": "Muhammad Ahmad Zia's areas of interest include Data Mining and Analysis, Game Development, and Online Education. He has earned over 20 certifications from international organizations and institutes.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Zar Bakht Imtiaz.",
+        "context": "Zar Bakht Imtiaz is an experienced educator and researcher with a Master's in Computer Science from the University of Lahore. He has been a lecturer at the University of Lahore for over one year, with a total of 3 years of teaching experience.",
+        "response": "Zar Bakht Imtiaz is an experienced educator and researcher with a Master's in Computer Science from the University of Lahore. He has been a lecturer at the same institution for over one year, with a total of 3 years of teaching experience.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Zar Bakht Imtiaz's research interests?",
+        "context": "Zar Bakht Imtiaz has contributed to the field through a publication with an impact factor of 6.12. He is currently seeking to expand his research scope, specifically focusing on community detection in complex networks using advanced optimization techniques.",
+        "response": "Zar Bakht Imtiaz's research interests include community detection in complex networks using advanced optimization techniques. He has contributed to the field through a publication with an impact factor of 6.12.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Syed Mujtaba Hassan Rizvi's research interests and academic contributions?",
+        "context": "Syed Mujtaba Hassan Rizvi specializes in Deep Learning, with a master's degree in computer science from FAST-NUCES, Lahore. His research has focused on leveraging Machine Learning and Deep Learning techniques to address agricultural challenges, including enhancing crop quality and optimizing weed control. His paper, 'Revolutionizing Agriculture: Machine and Deep Learning Solutions for Enhanced Crop Quality and Weed Control,' explores these innovative approaches. Additionally, he has taught at FAST-NUCES and is currently a lecturer at the University of Lahore.",
+        "response": "Syed Mujtaba Hassan Rizvi's research interests include Deep Learning, Natural Language Processing (NLP), Large Language Models (LLMs), Computer Vision (CV), and Neural Networks (NN). His work focuses on leveraging these techniques to tackle agricultural challenges such as enhancing crop quality and optimizing weed control. He has contributed to academia through his paper on agricultural applications of AI and his teaching roles at FAST-NUCES and the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Sadaf Ali's academic and research profile.",
+        "context": "Ms. Sadaf Ali is a Lecturer in the Department of Computer Science and IT. Specific details about her academic background, research interests, and contributions.",
+        "response": "Information about Ms. Sadaf Ali's academic background, research interests, and contributions is not available. For detailed information, please refer to her professional profile or contact her department.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Aqsa Aqdus's academic and research profile.",
+        "context": "Ms. Aqsa Aqdus is a Lecturer in the Department of Computer Science and IT. Specific details about her academic background, research interests, and contributions.",
+        "response": "Information about Ms. Aqsa Aqdus's academic background, research interests, and contributions is not available. For detailed information, please refer to her professional profile or contact her department.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Hassnain Ayoub's primary research interests?",
+        "context": "Muhammad Hassnain Ayoub serves as a Junior Lecturer in the Department of Computer Science and Information Technology at the University of Lahore (UOL), Lahore, Pakistan. With a BS in Computer Science from the University of Lahore, he is committed to deepening his knowledge and skills across diverse areas of his discipline. His primary interests include Machine Learning, Cloud Computing, and Artificial Intelligence.",
+        "response": "Muhammad Hassnain Ayoub's primary research interests include Machine Learning, Cloud Computing, and Artificial Intelligence.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Hassan's primary research interests?",
+        "context": "Muhammad Hassan serves as a Junior Lecturer in the Department of Computer Science and Information Technology at the University of Lahore (UOL), Lahore, Pakistan. With a BS in Computer Science from the University of Management and Technology, Lahore, he is committed to deepening his knowledge and skills across diverse areas of his discipline. His primary interests include Machine Learning, Cloud Computing, and Game Development.",
+        "response": "Muhammad Hassan's primary research interests include Machine Learning, Cloud Computing, and Game Development.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What subjects has Muhammad Rashid Mehmood taught?",
+        "context": "Muhammad Rashid Mehmood is currently working as a Junior Lecturer at the Department of Computer Science and Information Technology, University of Lahore (UOL), Lahore, Pakistan. He has done BS Information Technology from the University of Sargodha. He had started his academic career in 2022. He is keen to explore and work in multiple areas of his field including Machine Learning, Web Engineering, and Data Mining.",
+        "response": "Muhammad Rashid Mehmood has taught subjects related to Web Engineering and Data Mining.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Rashid Mehmood's primary research interests?",
+        "context": "Muhammad Rashid Mehmood is currently working as a Junior Lecturer at the Department of Computer Science and Information Technology, University of Lahore (UOL), Lahore, Pakistan. He has done BS Information Technology from the University of Sargodha. He had started his academic career in 2022. He is keen to explore and work in multiple areas of his field including Machine Learning, Web Engineering, and Data Mining.",
+        "response": "Muhammad Rashid Mehmood's primary research interests include Machine Learning, Web Engineering, and Data Mining.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Mr. Jawad Khalid's research interests?",
+        "context": "Mr. Jawad Khalid is a Junior Lecturer in the Department of Computer Science and Information Technology at The University of Lahore (UOL), Lahore. He holds a Master of Computer Science from the University of Management and Technology (UMT), Lahore. He is actively engaged in exploring Software Development, Machine Learning, and Computer Networks.",
+        "response": "Mr. Jawad Khalid's research interests include Software Development, Machine Learning, and Computer Networks.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "What are Muhammad Hassnain Ayoub's primary interests?",
+        "context": "Muhammad Hassnain Ayoub serves as a Junior Lecturer in the Department of Computer Science and Information Technology at the University of Lahore (UOL), Lahore, Pakistan. With a BS in Computer Science from the University of Lahore, he is committed to deepening his knowledge and skills across diverse areas of his discipline. His primary interests include Machine Learning, Cloud Computing, and Artificial Intelligence.",
+        "response": "Muhammad Hassnain Ayoub's primary interests include Machine Learning, Cloud Computing, and Artificial Intelligence.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Haris Lutaf Ullah.",
+        "context": "Mr. Haris Lutaf Ullah serves as a Junior Lecturer in the Department of Computer Science and Information Technology.",
+        "response": "Mr. Haris Lutaf Ullah is a Junior Lecturer in the Department of Computer Science and Information Technology.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Zainab Wajid.",
+        "context": "Ms. Zainab Wajid serves as a Junior Lecturer in the Department of Computer Science and Information Technology.",
+        "response": "Ms. Zainab Wajid is a Junior Lecturer in the Department of Computer Science and Information Technology.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Atif Raza.",
+        "context": "Atif Raza is working as a Junior Lecturer in the Department of Computer Science and Information Technology at The University of Lahore. He is currently pursuing an MS in Computer Science from the University of Lahore, Lahore campus, and he completed his Bachelor in Computer Science from the same university.",
+        "response": "Atif Raza is a Junior Lecturer in the Department of Computer Science and Information Technology at The University of Lahore, Lahore. He is currently pursuing an MS in Computer Science from the University of Lahore, Lahore campus, and he completed his Bachelor in Computer Science from the same university.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Muhammad Azeem Qureshi.",
+        "context": "Muhammad Azeem Qureshi is currently working as a Junior Lecturer at the Department of Computer Science and Information Technology, University of Lahore (UOL), Lahore, Pakistan. He has a BS in Computer Science from PUCIT Lahore and an MPhil in Computer Science from the Institute of Management Sciences, Lahore. He began his academic career in 2017 and is keen to explore and work in various areas such as Machine Learning, Cloud Computing, and Online Education.",
+        "response": "Muhammad Azeem Qureshi is a Junior Lecturer at the Department of Computer Science and Information Technology, University of Lahore (UOL), Lahore, Pakistan. He holds a BS in Computer Science from PUCIT Lahore and an MPhil in Computer Science from the Institute of Management Sciences, Lahore. His academic career began in 2017. His research interests include Machine Learning, Cloud Computing, and Online Education.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Saher Ashraf.",
+        "context": "Saher Ashraf is currently employed as a Research Associate in the Department of Computer Science and Information Technology at The University of Lahore. She holds a Master's degree from IMS and a Bachelor of Science in Computer Science degree from the University of Engineering and Technology, Lahore.",
+        "response": "Saher Ashraf is a Research Associate in the Department of Computer Science and Information Technology at The University of Lahore. She holds a Master's degree from IMS and a Bachelor of Science in Computer Science from the University of Engineering and Technology, Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Aqsa Aqdus.",
+        "context": "Ms. Aqsa Aqdus is a Lecturer in the Department of Computer Science and IT at The University of Lahore.",
+        "response": "Ms. Aqsa Aqdus is a Lecturer in the Department of Computer Science and IT at The University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Muhammad Ali Ilyas.",
+        "context": "Muhammad Ali Ilyas is currently a lecturer at the University of Lahore. He holds an MS degree in Computer Science from COMSATS University Islamabad and has been active in the education sector since 2022. His research and teaching interests include machine learning, deep learning, the Internet of Things (IoT), and data mining.",
+        "response": "Muhammad Ali Ilyas is a lecturer at the University of Lahore with an MS in Computer Science from COMSATS University Islamabad. He has been active in the education sector since 2022. His research and teaching interests include machine learning, deep learning, the Internet of Things (IoT), and data mining.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Muntha Amjad.",
+        "context": "Ms. Muntha Amjad earned her MPhil degree in 2021 from the University of Central Punjab, where she was awarded a gold medal for her outstanding academic performance. She completed her BSCS degree from PUCIT in 2019. Ms. Muntha has a diverse professional background, having served as an Associate Lecturer at UCP and gained two years of industry experience as a Senior Technical Content Engineer at Educative. Her research interests span Machine Learning, Fuzzy Logic, Zero-Shot Learning, and Content-Based Image Retrieval and Recognition. She is currently a Lecturer at The University of Lahore.",
+        "response": "Ms. Muntha Amjad earned her MPhil in 2021 from the University of Central Punjab, receiving a gold medal for her academic excellence. She completed her BSCS from PUCIT in 2019. She has worked as an Associate Lecturer at UCP and as a Senior Technical Content Engineer at Educative. Her research interests include Machine Learning, Fuzzy Logic, Zero-Shot Learning, and Content-Based Image Retrieval and Recognition. She is currently a Lecturer at The University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Reamsha Khan.",
+        "context": "Ms. Reamsha Khan is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore.",
+        "response": "Ms. Reamsha Khan is a Lecturer in the Department of Computer Science and Information Technology at The University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Salman Irfan.",
+        "context": "Salman Irfan is a Lecturer in the Department of Computer Science & IT at The University of Lahore. He holds an MSCS Degree from the University of Engineering and Technology (UET), Lahore, and is currently pursuing his PhD in Computer Science. Salman Irfan gained industry experience as a MERN Stack Developer at Triconv Technologies. He then worked as a Web & MERN Stack Instructor at the Arfa Karim Technology Incubator. His research interests are centered around artificial neural networks.",
+        "response": "Salman Irfan is a Lecturer in the Department of Computer Science & IT at The University of Lahore. He holds an MSCS Degree from the University of Engineering and Technology (UET), Lahore, and is currently pursuing his PhD in Computer Science. Salman Irfan gained industry experience as a MERN Stack Developer at Triconv Technologies and worked as a Web & MERN Stack Instructor at the Arfa Karim Technology Incubator. His research interests are centered around artificial neural networks.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Sonia Raoof.",
+        "context": "Ms. Sonia Raoof is a Lecturer in Computer Science at the University of Lahore, specializing in machine learning and deep learning. She holds a BS in Information Technology from Bahauddin Zakariya University and an MS in Information Technology from Government College University Faisalabad. Prior to academia, she worked as a Head of Department at University College of Management & Science.",
+        "response": "Ms. Sonia Raoof is a Lecturer in Computer Science at the University of Lahore, specializing in machine learning and deep learning. She holds a BS in Information Technology from Bahauddin Zakariya University and an MS in Information Technology from Government College University Faisalabad. Before joining academia, she worked as a Head of Department at University College of Management & Science.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Sadaf Masood.",
+        "context": "Sadaf Masood is currently a Lecturer in the Department of Computer Science at the University of Lahore. She holds a Master\u2019s degree in Computer Science from the University of Haripur and a Bachelor's degree from the University of Punjab. She has previously served as a Lecturer in Computer Science at the City University of Science and Information Technology, Peshawar, and worked as a Research Associate at the University of Haripur. Her primary research interest is in vehicular networks, and she has developed a novel algorithm for detecting and preventing false nodes and messages, published in IEEE Access. She has also contributed to educational technology as a Coursera representative at City University.",
+        "response": "Sadaf Masood is a Lecturer in the Department of Computer Science at the University of Lahore. She holds a Master\u2019s degree in Computer Science from the University of Haripur and a Bachelor's degree from the University of Punjab. She has previously served as a Lecturer at the City University of Science and Information Technology, Peshawar, and as a Research Associate at the University of Haripur. Her research interests focus on vehicular networks, and she has developed a novel algorithm for detecting and preventing false nodes and messages in this field, published in IEEE Access. Sadaf has also contributed to educational technology as a Coursera representative at City University. You can reach her at sadaf.masood@cs.uol.edu.pk.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ahmed Faraz.",
+        "context": "Ahmed Faraz is a Lecturer in Computer Science and IT with over five years of teaching experience. He holds a Master of Science in Computer Science and has been involved in higher education since 2019. At The University of Lahore, he delivers lectures, manages course materials, and contributes to academic programs. His research interests include convolutional approaches in transfer learning for facial emotion analysis, with work published in the Journal of Computing & Biomedical Informatics.",
+        "response": "Ahmed Faraz is a dynamic Lecturer in Computer Science and IT with over five years of teaching experience. He holds a Master of Science in Computer Science and has been actively involved in higher education since 2019. At The University of Lahore, he is responsible for delivering engaging lectures, managing course materials, and contributing to academic programs. His research interests focus on convolutional approaches in transfer learning for facial emotion analysis, and his work has been published in the Journal of Computing & Biomedical Informatics. Ahmed Faraz is known for his effective communication skills, strong grasp of technical concepts, and dedication to advancing the field of computer science.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Faizan Younas.",
+        "context": "Faizan Younas holds a Master of Science degree in Computer Science and is currently a Lecturer in the Department of Computer Science at The University of Lahore. He completed his Bachelor of Science in Computer Science from Khwaja Fareed University of Engineering & Information Technology (KFUEIT), Rahim Yar Khan, Pakistan, in 2021, and his Master of Science in Computer Science in 2023. His research interests include Natural Language Processing (NLP), Machine Learning, and Deep Learning, with contributions to high-impact journals.",
+        "response": "Faizan Younas is a Lecturer in the Department of Computer Science at The University of Lahore. He holds a Master of Science degree in Computer Science, completed in 2023, and a Bachelor of Science degree in Computer Science from Khwaja Fareed University of Engineering & Information Technology (KFUEIT), Rahim Yar Khan, Pakistan, obtained in 2021. Faizan has made significant contributions to Machine Learning and Artificial Intelligence through research articles published in high-impact journals. His research interests include Natural Language Processing (NLP), Machine Learning, and Deep Learning.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Zainab.",
+        "context": "Ms. Zainab is a Lecturer at The University of Lahore, where she specializes in computer science. She holds a Master\u2019s degree in Computer Science from Information Technology University Punjab and a Bachelor\u2019s degree from National Textile University Faisalabad. She has previously taught at National Textile University Faisalabad, Superior University, and Government College University Faisalabad, and worked as a Research Associate at BISMIL Lab, ITU.",
+        "response": "Ms. Zainab is a Lecturer at The University of Lahore with a Master\u2019s degree in Computer Science from Information Technology University Punjab and a Bachelor\u2019s degree from National Textile University Faisalabad. Her teaching experience includes positions at National Textile University Faisalabad, Superior University, and Government College University Faisalabad. She also served as a Research Associate at BISMIL Lab, ITU. Ms. Zainab is dedicated to providing high-quality education and fostering an engaging learning environment, and her diverse experience and commitment make her a valuable member of the academic community.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Hina Idrees.",
+        "context": "Ms. Hina Idrees is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Hina Idrees is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She is involved in teaching and contributing to the academic environment within the department.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Sadaf Mehmood.",
+        "context": "Ms. Sadaf Mehmood is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Sadaf Mehmood is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She contributes to the academic and research activities within the department, focusing on her expertise and interests in the field.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Shoaib Ahmed.",
+        "context": "Mr. Shoaib Ahmed is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Shoaib Ahmed is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He is involved in teaching and contributing to academic research in the field of computer science.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Rimsha Anam.",
+        "context": "Ms. Rimsha Anam is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Rimsha Anam is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She contributes to both teaching and research in the field of computer science.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Amna Hussain.",
+        "context": "Ms. Amna Hussain is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Amna Hussain is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She is involved in teaching and contributing to the field of computer science through her academic role.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Faiez.",
+        "context": "Mr. Muhammad Faiez is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Muhammad Faiez is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He is engaged in teaching and contributing to the academic community through his role in computer science education.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Sabiqa Ashraf.",
+        "context": "Ms. Sabiqa Ashraf is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Sabiqa Ashraf is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She is involved in teaching and academic activities within the department.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Moiz Ur Rahman.",
+        "context": "Moiz Ur Rahman is a Lecturer in the Department of Computer Science at the University of Lahore, specializing in Machine Learning and Image Processing. He holds an MPhil in Computer Science with a focus on Medical Image Analysis and has worked on innovative projects like Automated Pneumonia Detection systems and real-time bus tracking solutions.",
+        "response": "Moiz Ur Rahman is a Lecturer in the Department of Computer Science at the University of Lahore. He specializes in Machine Learning and Image Processing, with an MPhil in Computer Science focusing on Medical Image Analysis. Moiz has worked on innovative projects such as Automated Pneumonia Detection systems and real-time bus tracking solutions, integrating advanced technologies with practical applications in his research and teaching.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Arslan Bodla.",
+        "context": "Mr. Muhammad Arslan Bodla is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Muhammad Arslan Bodla is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Murtaza Najaf.",
+        "context": "Mr. Murtaza Najaf is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Murtaza Najaf is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Noor ul Ain.",
+        "context": "Ms. Noor ul Ain is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Ms. Noor ul Ain is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Temur Ul Hassan.",
+        "context": "Mr. Temur Ul Hassan is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Temur Ul Hassan is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Hafiz Ali Younas.",
+        "context": "Mr. Hafiz Ali Younas is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Hafiz Ali Younas is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Muzaffar.",
+        "context": "Mr. Muhammad Muzaffar is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Muhammad Muzaffar is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Sabeen Aslam.",
+        "context": "Ms. Sabeen Aslam is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Ms. Sabeen Aslam is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Nouman Ashraf.",
+        "context": "Mr. Muhammad Nouman Ashraf is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Muhammad Nouman Ashraf is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Nayab Gull.",
+        "context": "Ms. Nayab Gull is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Ms. Nayab Gull is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Junaid Ali.",
+        "context": "Mr. Junaid Ali is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Junaid Ali is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Hanan.",
+        "context": "Mr. Muhammad Hanan is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Muhammad Hanan is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Fiaz.",
+        "context": "Mr. Muhammad Fiaz is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Muhammad Fiaz is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Sajid Iqbal.",
+        "context": "Mr. Sajid Iqbal is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Mr. Sajid Iqbal is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Shamsa Kanwal.",
+        "context": "Ms. Shamsa Kanwal is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "response": "Ms. Shamsa Kanwal is a Lecturer in the Department of Computer Science and IT at the University of Lahore.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Khawaja Ali Qadeer.",
+        "context": "Mr. Khawaja Ali Qadeer joined the University of Lahore in October 2012 as a Lecturer. He is a Computer Engineer from UET, Lahore, with a Master\u2019s degree in Business Administration from The University of Northampton, UK. He teaches management courses and is involved in various departmental committees.",
+        "response": "Mr. Khawaja Ali Qadeer joined the University of Lahore in October 2012 as a Lecturer. He holds a degree in Computer Engineering from UET, Lahore, and a Master\u2019s degree in Business Administration from The University of Northampton, UK. He teaches management courses, specifically Marketing and Human Resource Management, in the Department of Computer Science and Technology. In addition to teaching, he has been part of various departmental committees, including the Admission Committee, Sports Committee, ICACS Committee, and Semester Planning Committee. Currently, he serves as the Cluster Head for management courses in the CS & IT department and is an active member of the Semester Planning Committee, responsible for scheduling timetables and managing course allocations.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Khansa Hammad.",
+        "context": "Ms. Khansa Hammad is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Khansa Hammad is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She specializes in various aspects of computer science and contributes to the academic development of students through her teaching and research.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Fatima Rafique.",
+        "context": "Ms. Fatima Rafique is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Fatima Rafique is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She is involved in teaching and research within the field of computer science, contributing to both academic and practical aspects of the discipline.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Fareeha Ashfaq.",
+        "context": "Ms. Fareeha Ashfaq is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Fareeha Ashfaq is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She contributes to the academic environment through her teaching and involvement in computer science education.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Ayesha Asghar.",
+        "context": "Ms. Ayesha Asghar is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Ayesha Asghar is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She contributes to the department through her teaching and engagement with students in the field of computer science.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Hafiz Saifullah.",
+        "context": "Mr. Hafiz Saifullah is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Hafiz Saifullah is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He plays a key role in delivering computer science education and engaging with students in his field.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Haseena Kainat.",
+        "context": "Ms. Haseena Kainat is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Haseena Kainat is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She contributes to the department by teaching various computer science courses and supporting students in their academic endeavors.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Asif Ahsan.",
+        "context": "Mr. Asif Ahsan is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Asif Ahsan is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He is involved in teaching computer science subjects and guiding students through their educational journey.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad.",
+        "context": "Mr. Muhammad is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Muhammad is a Lecturer in the Department of Computer Science and IT at The University of Lahore. His role involves educating students in various aspects of computer science and supporting their academic progress.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Fatima Shahzad.",
+        "context": "Ms. Fatima Shahzad is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Fatima Shahzad is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She focuses on teaching computer science courses and assisting students with their studies.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Ms. Atifa Arooj.",
+        "context": "Ms. Atifa Arooj is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Ms. Atifa Arooj is a Lecturer in the Department of Computer Science and IT at The University of Lahore. She plays a vitalrole in delivering computer science education and mentoring students.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Waseem Asif.",
+        "context": "Mr. Muhammad Waseem Asif is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Muhammad Waseem Asif is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He contributes to the academic environment by teaching computer science subjects and supporting student development.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Muhammad Rizwan.",
+        "context": "Mr. Muhammad Rizwan is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Muhammad Rizwan is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He is involved in teaching and guiding students in various computer science disciplines.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Provide details about Mr. Hafiz Saifullah.",
+        "context": "Mr. Hafiz Saifullah is a Lecturer in the Department of Computer Science and IT.",
+        "response": "Mr. Hafiz Saifullah is a Lecturer in the Department of Computer Science and IT at The University of Lahore. He plays a key role in delivering computer science education and engaging with students in his field.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Tell me about Syed Mujtaba Hassan Rizvi.",
+        "context": "Syed Mujtaba Hassan Rizvi is a passionate professional in the realm of Artificial Intelligence and Machine Learning, specializing in Deep Learning. He holds a master's degree in computer science from FAST-NUCES, Lahore, where he focused on Deep Learning. His research addressed challenges in agriculture, particularly in enhancing crop quality and optimizing weed control, culminating in a paper titled 'Revolutionizing Agriculture: Machine and Deep Learning Solutions for Enhanced Crop Quality and Weed Control.' He has served as a visiting instructor at FAST-NUCES, teaching operating system and AI labs, and is currently a lecturer at the University of Lahore. His expertise includes Deep Learning, NLP, LLMs, Computer Vision, and Neural Networks.",
+        "response": "Syed Mujtaba Hassan Rizvi is a lecturer at the University of Lahore with a master's degree in computer science from FAST-NUCES, Lahore. He specializes in Deep Learning and has conducted research on enhancing crop quality and optimizing weed control through Machine Learning and Deep Learning techniques. His work is detailed in his paper 'Revolutionizing Agriculture: Machine and Deep Learning Solutions for Enhanced Crop Quality and Weed Control.' He has also taught at FAST-NUCES and is knowledgeable in Deep Learning, NLP, LLMs, Computer Vision, and Neural Networks.",
+        "category": "open_qa"
+    },
+    {
+        "instruction": "Who is a good teacher for AI?",
+        "context": "In the Computer Science department of the University of Lahore, three teachers are teaching the AI subject: Mujtaba Hassan, Mishal Munir, and Aqsa. Mujtaba Hassan is a teacher who teaches well, focusing more on practical work in labs and covering more than the syllabus outline. Mishal Munir also teaches AI but doesn't focus much on labs or practical work, and Aqsa believes in self-learning and doesn't conduct labs regularly.",
+        "response": "Mujtaba Hassan is considered a good teacher for AI as he teaches more than the outline and emphasizes practical work in labs.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher gives extra marks in AI exams?",
+        "context": "Mujtaba Hassan, a teacher of AI in the University of Lahore, is lenient during final exams and sometimes gives 1 or 2 extra marks to students. Mishal Munir, who also teaches AI, grades students in a linear way but does not give extra marks. Aqsa, another AI teacher, also does not give extra marks to students.",
+        "response": "Mujtaba Hassan gives extra marks in AI exams.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which AI teacher focuses on practical work in labs?",
+        "context": "Mujtaba Hassan, a teacher in the Computer Science department of the University of Lahore, emphasizes practical work in labs and often teaches more than the course outline. Mishal Munir and Aqsa also teach AI but do not focus much on lab work.",
+        "response": "Mujtaba Hassan focuses on practical work in labs.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Mishal Munir give extra marks to students?",
+        "context": "Mishal Munir is one of the AI teachers in the University of Lahore. While her grading is linear, she does not give extra marks to students in exams.",
+        "response": "No, Mishal Munir does not give extra marks to students.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is Mam Aqsa's teaching style for AI?",
+        "context": "Aqsa is an AI teacher at the University of Lahore. She has an expressive teaching style and believes in self-learning. However, she does not regularly conduct labs and does not give extra grades or marks to students.",
+        "response": "Mam Aqsa's teaching style emphasizes self-learning, and she does not regularly conduct labs.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who is the most senior teacher for the Database subject?",
+        "context": "In the Computer Science department, Hammad Hassan Qureshi teaches the Database subject both in the class and lab. He is the most senior teacher in the department with the latest practical expertise in databases. Junaid also teaches Database but does not focus much on practical work and labs.",
+        "response": "Hammad Hassan Qureshi is the most senior teacher for the Database subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher focuses on practical work in the Database subject?",
+        "context": "Hammad Hassan Qureshi teaches the Database subject with a focus on both class and lab sessions, giving practical assignments and surprise quizzes. Junaid also teaches the Database subject but does not focus on practical work and labs.",
+        "response": "Hammad Hassan Qureshi focuses on practical work in the Database subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Hammad Hassan Qureshi give a lot of assignments in the Database subject?",
+        "context": "Hammad Hassan Qureshi teaches the Database subject, giving students many assignments with a practical focus to help them learn better. He also conducts surprise quizzes and ensures students are comfortable with his teaching both in class and in the lab.",
+        "response": "Yes, Hammad Hassan Qureshi gives a lot of assignments in the Database subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has a higher passing ratio for Database students?",
+        "context": "Hammad Hassan Qureshi has a higher passing ratio for students in the Database subject compared to other teachers due to his practical teaching methods and focus on learning outcomes.",
+        "response": "Hammad Hassan Qureshi has a higher passing ratio for Database students.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which Database teacher gives extra marks in exams?",
+        "context": "Junaid also teaches the Database subject. Although he does not focus much on practical work in labs, he gives extra marks to students in exams. Hammad Hassan Qureshi, on the other hand, does not offer extra marks but focuses on practical expertise.",
+        "response": "Junaid gives extra marks in exams.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who teaches Distributed Database in the department?",
+        "context": "Hammad Hassan Qureshi also teaches Distributed Database in the department. He is the only teacher who teaches this subject and covers both the theoretical and practical aspects of it, much like how he teaches the Database subject.",
+        "response": "Hammad Hassan Qureshi is the only teacher who teaches Distributed Database in the department.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Hammad Hassan Qureshi teach Distributed Database with practical assignments?",
+        "context": "Hammad Hassan Qureshi teaches Distributed Database with the same focus on both theory and practicals, just as he does with the Database subject. He provides practical assignments and ensures students learn through hands-on experience.",
+        "response": "Yes, Hammad Hassan Qureshi teaches Distributed Database with practical assignments.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Junaid teach Distributed Database?",
+        "context": "Junaid is a teacher in the Computer Science department who teaches Database, but Hammad Hassan Qureshi is the only teacher who teaches Distributed Database.",
+        "response": "No, Junaid does not teach Distributed Database.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which is the better teacher for the Database subject?",
+        "context": "Hammad Hassan Qureshi teaches the Database subject with practical expertise, surprise quizzes, and many assignments focused on hands-on learning. Junaid also teaches Database but does not emphasize labs or practical work, though he is lenient in giving extra marks during exams.",
+        "response": "Hammad Hassan Qureshi is considered the better teacher for the Database subject due to his practical focus and teaching methods.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which is the better teacher for the Distributed Database subject?",
+        "context": "Hammad Hassan Qureshi is the only teacher who teaches Distributed Database in the Computer Science department. He provides both theoretical knowledge and practical assignments, ensuring students get hands-on learning.",
+        "response": "Hammad Hassan Qureshi is the only and best teacher for the Distributed Database subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who are the teachers for the Parallel Computing subject?",
+        "context": "In the Computer Science department, Nadeem Nasir and Yasir Mahmood teach the Parallel Computing subject. Both are well-regarded for their teaching.",
+        "response": "Nadeem Nasir and Yasir Mahmood are the teachers for the Parallel Computing subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has a stricter approach to grading in Parallel Computing?",
+        "context": "Nadeem Nasir teaches Parallel Computing and is known for being strict in class, during evaluations, and with exam grading, resulting in a lower passing ratio for students. Yasir Mahmood, on the other hand, also teaches well but is more lenient, with a higher passing ratio.",
+        "response": "Nadeem Nasir has a stricter approach to grading in Parallel Computing.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has a higher passing ratio in Parallel Computing?",
+        "context": "Yasir Mahmood, a teacher for the Parallel Computing subject, has a higher passing ratio due to his more lenient teaching style and jolly personality. In contrast, Nadeem Nasir is stricter, leading to a lower passing ratio.",
+        "response": "Yasir Mahmood has a higher passing ratio in Parallel Computing.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is Nadeem Nasir's teaching style in Parallel Computing?",
+        "context": "Nadeem Nasir is known for being a strict teacher in the Parallel Computing subject. His strictness in class, evaluations, and exam grading results in a lower passing ratio for students.",
+        "response": "Nadeem Nasir's teaching style is strict in Parallel Computing, particularly in class discipline, evaluations, and grading.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is Yasir Mahmood's teaching style in Parallel Computing?",
+        "context": "Yasir Mahmood, who teaches Parallel Computing, is known for his jolly personality and a more lenient approach to teaching. His style leads to a higher passing ratio for students.",
+        "response": "Yasir Mahmood's teaching style in Parallel Computing is more lenient, with a jolly personality.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher is stricter in Parallel Computing, Nadeem Nasir or Yasir Mahmood?",
+        "context": "Nadeem Nasir is the stricter teacher in the Parallel Computing subject, particularly in terms of class discipline, evaluations, and grading. Yasir Mahmood is more lenient.",
+        "response": "Nadeem Nasir is stricter in Parallel Computing.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher for Parallel Computing has a more lenient grading style?",
+        "context": "Yasir Mahmood teaches Parallel Computing with a more lenient approach to grading, which results in a higher passing ratio for his students. Nadeem Nasir, on the other hand, is stricter.",
+        "response": "Yasir Mahmood has a more lenient grading style in Parallel Computing.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who has a lower passing ratio in Parallel Computing?",
+        "context": "Nadeem Nasir, a teacher for Parallel Computing, has a lower passing ratio due to his strictness in class and grading. Yasir Mahmood, on the other hand, has a higher passing ratio.",
+        "response": "Nadeem Nasir has a lower passing ratio in Parallel Computing.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who are the teachers for the Object-Oriented Programming (OOP) subject?",
+        "context": "In the Computer Science department, Sir Mujtaba and Sir Shahid Yousaf teach the Object-Oriented Programming (OOP) subject. Both are known for their expertise in the subject.",
+        "response": "Sir Mujtaba and Sir Shahid Yousaf are the teachers for the Object-Oriented Programming (OOP) subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher focuses more on practical work in the Object-Oriented Programming (OOP) subject?",
+        "context": "Sir Mujtaba teaches Object-Oriented Programming (OOP) with a strong focus on practical work, allowing students to learn core programming concepts that are useful in real-life applications. He regularly takes labs with important tasks.",
+        "response": "Sir Mujtaba focuses more on practical work in the Object-Oriented Programming (OOP) subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher is known for a lenient grading style in Object-Oriented Programming (OOP)?",
+        "context": "Sir Mujtaba teaches Object-Oriented Programming (OOP) and is known for his lenient grading in exams. His students often achieve a high passing ratio due to his practical teaching methods.",
+        "response": "Sir Mujtaba is known for his lenient grading style in Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has an impressive passing ratio in Object-Oriented Programming (OOP)?",
+        "context": "Sir Mujtaba has an impressive passing ratio in Object-Oriented Programming (OOP) due to his focus on practical tasks, regular labs, and lenient grading.",
+        "response": "Sir Mujtaba has an impressive passing ratio in Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Sir Mujtaba take regular labs in Object-Oriented Programming (OOP)?",
+        "context": "Sir Mujtaba teaches Object-Oriented Programming (OOP) and regularly takes labs with practical and important tasks, helping students gain hands-on experience.",
+        "response": "Yes, Sir Mujtaba takes regular labs in Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who is the senior teacher for Object-Oriented Programming (OOP)?",
+        "context": "Sir Shahid Yousaf is the most senior teacher in the Computer Science department, and he also teaches Object-Oriented Programming (OOP).",
+        "response": "Sir Shahid Yousaf is the senior teacher for Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who teaches the core concepts of Object-Oriented Programming (OOP) effectively?",
+        "context": "Sir Mujtaba teaches Object-Oriented Programming (OOP) with a focus on core programming concepts and practical applications, helping students prepare for real-life programming tasks.",
+        "response": "Sir Mujtaba effectively teaches the core concepts of Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher takes regular labs with practical tasks in Object-Oriented Programming (OOP)?",
+        "context": "Sir Mujtaba takes regular labs in Object-Oriented Programming (OOP), focusing on important practical tasks that help students grasp core programming concepts.",
+        "response": "Sir Mujtaba takes regular labs with practical tasks in Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher is lenient in grading for Object-Oriented Programming (OOP)?",
+        "context": "Sir Mujtaba is known for his lenient grading in Object-Oriented Programming (OOP), which helps students achieve better results and a higher passing ratio.",
+        "response": "Sir Mujtaba is lenient in grading for Object-Oriented Programming (OOP).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who are the teachers for the IICT subject?",
+        "context": "In the IICT subject, Sir Mujtaba and Sir Zeeshan are the teachers. Sir Mujtaba is an experienced teacher, while Sir Zeeshan is new and fresh.",
+        "response": "Sir Mujtaba and Sir Zeeshan are the teachers for the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher focuses on practical work in the IICT subject?",
+        "context": "Sir Mujtaba teaches IICT with a strong focus on practical work, allowing students to learn core programming concepts that are useful in real-life applications. He regularly takes labs with practical and important tasks.",
+        "response": "Sir Mujtaba focuses on practical work in the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher is known for lenient grading in the IICT subject?",
+        "context": "Sir Mujtaba is known for his lenient grading in exams for the IICT subject, which helps students achieve better results and maintain an impressive passing ratio.",
+        "response": "Sir Mujtaba is known for lenient grading in the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has an impressive passing ratio in the IICT subject?",
+        "context": "Sir Mujtaba has an impressive passing ratio in the IICT subject, due to his focus on practical tasks, regular labs, and lenient grading.",
+        "response": "Sir Mujtaba has an impressive passing ratio in the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Sir Mujtaba take regular labs in the IICT subject?",
+        "context": "Sir Mujtaba takes regular labs in the IICT subject, focusing on important practical tasks that help students grasp core programming concepts.",
+        "response": "Yes, Sir Mujtaba takes regular labs in the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who is the more experienced teacher for the IICT subject?",
+        "context": "Sir Mujtaba is the more experienced teacher in the IICT subject, known for his focus on practical work and lenient grading. Sir Zeeshan, on the other hand, is new and fresh.",
+        "response": "Sir Mujtaba is the more experienced teacher for the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What can be said about Sir Zeeshan's teaching in the IICT subject?",
+        "context": "Sir Zeeshan is a new and fresh teacher in the department, so not much can be said about his teaching style for the IICT subject at this point.",
+        "response": "Sir Zeeshan is new, and not much can be said about his teaching in the IICT subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who teaches Mobile Application Development (MAD)?",
+        "context": "Sir Abdul Ghaffar is the teacher for the Mobile Application Development (MAD) subject. He is known for his focus on practical work and teaching core programming concepts.",
+        "response": "Sir Abdul Ghaffar teaches Mobile Application Development (MAD).",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher emphasizes practical tasks in the MAD subject?",
+        "context": "Sir Abdul Ghaffar teaches MAD with a strong emphasis on practical tasks. His teaching helps students learn core concepts of programming that are beneficial for their future and practical life. He regularly conducts labs with practical and important tasks.",
+        "response": "Sir Abdul Ghaffar emphasizes practical tasks in the MAD subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is Sir Abdul Ghaffar's goal in teaching the MAD subject?",
+        "context": "Sir Abdul Ghaffar's goal is to make students experts in core concepts of Flutter, ensuring they gain expertise in Flutter during their university life. His experience and expertise in both Flutter and web development are impressive.",
+        "response": "Sir Abdul Ghaffar's goal is to make students experts in core concepts of Flutter.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Does Sir Abdul Ghaffar take regular labs in the MAD subject?",
+        "context": "Sir Abdul Ghaffar takes regular labs in the MAD subject, where he assigns practical tasks that are important for mastering mobile application development.",
+        "response": "Yes, Sir Abdul Ghaffar takes regular labs in the MAD subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What programming framework does Sir Abdul Ghaffar focus on in the MAD subject?",
+        "context": "Sir Abdul Ghaffar focuses on teaching students the core concepts of Flutter, a popular mobile application development framework. His goal is to make students proficient in Flutter during their university studies.",
+        "response": "Sir Abdul Ghaffar focuses on teaching Flutter in the MAD subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Is Sir Abdul Ghaffar's grading lenient in the MAD subject?",
+        "context": "Sir Abdul Ghaffar is known for his lenient grading in the MAD subject, which results in an impressive passing ratio for his students.",
+        "response": "Yes, Sir Abdul Ghaffar's grading is lenient in the MAD subject.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher has expertise in both Flutter and web development?",
+        "context": "Sir Abdul Ghaffar has impressive expertise in both Flutter and web development. He ensures that students gain practical knowledge in both areas during their studies.",
+        "response": "Sir Abdul Ghaffar has expertise in both Flutter and web development.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Who are the teachers for Calculus and Multi-Calculus?",
+        "context": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq are the teachers for Calculus and Multi-Calculus. They focus on teaching core mathematical concepts with practical applications.",
+        "response": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq are the teachers for Calculus and Multi-Calculus.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which subject do Dr. Romana, Mam Umiama, and Mam Amber Shafiq teach?",
+        "context": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq teach Calculus and Multi-Calculus, focusing on core mathematical concepts that are beneficial for future practical applications, including data science, data mining, and data analysis.",
+        "response": "They teach Calculus and Multi-Calculus.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teacher focuses on practical work in Calculus and Multi-Calculus?",
+        "context": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq focus on practical work in Calculus and Multi-Calculus. Their teaching helps students grasp core mathematical concepts that are useful in real-world applications, including data science and data analysis.",
+        "response": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq all focus on practical work in Calculus and Multi-Calculus.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What do students learn in the labs for Calculus and Multi-Calculus?",
+        "context": "In the labs for Calculus and Multi-Calculus, students engage in practical topics that are important for future applications, such as data science, data mining, and data analysis.",
+        "response": "Students learn practical topics that are important for data science, data mining, and data analysis.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "What is the passing ratio in Calculus and Multi-Calculus?",
+        "context": "The passing ratio in Calculus and Multi-Calculus is impressive, due to the teachers' focus on practical work and lenient grading during exams.",
+        "response": "The passing ratio in Calculus and Multi-Calculus is impressive.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Do the teachers for Calculus and Multi-Calculus take labs regularly?",
+        "context": "Yes, Dr. Romana, Mam Umiama, and Mam Amber Shafiq take labs regularly in Calculus and Multi-Calculus. These labs focus on practical topics that are important for data-related fields.",
+        "response": "Yes, the teachers take labs regularly in Calculus and Multi-Calculus.",
+        "category": "closed_qa"
+    },
+    {
+        "instruction": "Which teachers have lenient grading in Calculus and Multi-Calculus?",
+        "context": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq are known for their lenient grading in exams for Calculus and Multi-Calculus, which contributes to a high passing ratio.",
+        "response": "Dr. Romana, Mam Umiama, and Mam Amber Shafiq have lenient grading in Calculus and Multi-Calculus.",
+        "category": "closed_qa"
+    }
+]

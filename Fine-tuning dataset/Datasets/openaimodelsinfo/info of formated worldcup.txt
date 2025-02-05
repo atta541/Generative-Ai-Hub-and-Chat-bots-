@@ -1,0 +1,53 @@
+C:\Users\user>curl https://api.openai.com/v1/files -H "Authorization: Bearer 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" -F "purpose=fine-tune" -F "file=@C:\Users\user\Desktop\Datasets\formatted_testcup.jsonl"
+{
+  "object": "file",
+  "id": "file-A1uQe3QynvGjRtyBTMygvb",
+  "purpose": "fine-tune",
+  "filename": "formatted_testcup.jsonl",
+  "bytes": 68151,
+  "created_at": 1735728817,
+  "status": "processed",
+  "status_details": null
+}
+
+C:\Users\user>
+
+
+
+
+
+C:\Users\user>curl https://api.openai.com/v1/fine_tuning/jobs -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d "{\"training_file\": \"file-A1uQe3QynvGjRtyBTMygvb\", \"model\": \"gpt-3.5-turbo\"}"
+{
+  "object": "fine_tuning.job",
+  "id": "ftjob-Pa8oOv6WydX9ZZOkUuWFiQTp",
+  "model": "gpt-3.5-turbo-0125",
+  "created_at": 1735729012,
+  "finished_at": null,
+  "fine_tuned_model": null,
+  "organization_id": "org-AwzEYb7QfuztoYP8eGRRBT0A",
+  "result_files": [],
+  "status": "validating_files",
+  "validation_file": null,
+  "training_file": "file-A1uQe3QynvGjRtyBTMygvb",
+  "hyperparameters": {
+    "n_epochs": "auto",
+    "batch_size": "auto",
+    "learning_rate_multiplier": "auto"
+  },
+  "trained_tokens": null,
+  "error": {},
+  "user_provided_suffix": null,
+  "seed": 874966397,
+  "estimated_finish": null,
+  "integrations": [],
+  "method": {
+    "type": "supervised",
+    "supervised": {
+      "hyperparameters": {
+        "batch_size": "auto",
+        "learning_rate_multiplier": "auto",
+        "n_epochs": "auto"
+      }
+    }
+  }
+}

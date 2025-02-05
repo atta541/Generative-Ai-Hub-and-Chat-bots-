@@ -1,0 +1,406 @@
+{
+    "messages": [
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the highest score achieved by a team in the group stage?" },
+      { "role": "assistant", "content": "The highest score in the group stage was 218 runs by the West Indies against Afghanistan." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches did the USA lose during the tournament?" },
+      { "role": "assistant", "content": "The USA lost all of their matches in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the captain of the Afghanistan team?" },
+      { "role": "assistant", "content": "The captain of the Afghanistan team was Hashmatullah Shahidi." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What notable achievement did Canada have during their debut tournament?" },
+      { "role": "assistant", "content": "Canada won their first T20 World Cup match against Ireland." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which two teams faced off in the first semi-final?" },
+      { "role": "assistant", "content": "The first semi-final was contested between South Africa and Afghanistan." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many players scored 300 runs or more in the tournament?" },
+      { "role": "assistant", "content": "Two players scored 300 runs or more in the tournament." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the player of the match in the first semi-final?" },
+      { "role": "assistant", "content": "The player of the match in the first semi-final was Marco Jansen from South Africa." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the format of the Super 8 stage?" },
+      { "role": "assistant", "content": "The Super 8 stage had two groups of four teams each, with a round-robin format." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player had the best bowling figures in the tournament?" },
+      { "role": "assistant", "content": "Fazalhaq Farooqi had the best bowling figures, with 5 wickets for 11 runs." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches were played at Grand Prairie Stadium?" },
+      { "role": "assistant", "content": "A total of 12 matches were played at Grand Prairie Stadium." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player became the highest run-scorer in T20Is during the tournament?" },
+      { "role": "assistant", "content": "Babar Azam became the highest run-scorer in T20Is during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What record did Rohit Sharma achieve during the tournament?" },
+      { "role": "assistant", "content": "Rohit Sharma achieved 4,000 runs in T20Is during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many teams from the Americas qualified for the tournament?" },
+      { "role": "assistant", "content": "Two teams from the Americas, the USA and Canada, qualified for the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the reaction of the West Indies fans after their performances?" },
+      { "role": "assistant", "content": "West Indies fans were hopeful but disappointed with their team's performance." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player was the leading wicket-taker for India?" },
+      { "role": "assistant", "content": "Jasprit Bumrah was the leading wicket-taker for India during the tournament." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the significance of the USA hosting the tournament?" },
+      { "role": "assistant", "content": "The significance was to promote cricket in the USA and develop the sport's infrastructure." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the main sponsor of the tournament?" },
+      { "role": "assistant", "content": "The main sponsor of the tournament was a major global sports brand." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What challenges did the ICC face in organizing the tournament?" },
+      { "role": "assistant", "content": "The ICC faced challenges related to logistics and ensuring fan engagement." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many teams were eliminated after the group stage?" },
+      { "role": "assistant", "content": "Eight teams were eliminated after the group stage of the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the most significant upset in the tournament?" },
+      { "role": "assistant", "content": "The USA defeating Pakistan was the most significant upset in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the reaction of players to the crowd support in the USA?" },
+      { "role": "assistant", "content": "Players appreciated the enthusiasm and support from the crowd in the USA." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did teams prepare for the unique conditions in the USA?" },
+      { "role": "assistant", "content": "Teams prepared by adjusting their training routines to acclimatize to the local conditions." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What record did Afghanistan achieve against Pakistan in the Super 8 stage?" },
+      { "role": "assistant", "content": "Afghanistan achieved their first win against Pakistan in a T20 World Cup match." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What role did social media play during the tournament?" },
+      { "role": "assistant", "content": "Social media played a crucial role in engaging fans and providing match updates." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did players celebrate after the final match?" },
+      { "role": "assistant", "content": "Players celebrated with their teammates and shared their joy with fans after the final match." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many players were named in the Player of the Match awards throughout the tournament?" },
+      { "role": "assistant", "content": "A total of 14 players were named in the Player of the Match awards throughout the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the outcome of the group match between India and West Indies?" },
+      { "role": "assistant", "content": "India won the group match against West Indies by a significant margin." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the local community get involved in the tournament?" },
+      { "role": "assistant", "content": "The local community organized events and supported fan zones during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What were the most popular moments highlighted in the tournament highlights?" },
+      { "role": "assistant", "content": "The most popular moments included thrilling finishes and standout performances." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which venue was most appreciated by the players for its facilities?" },
+      { "role": "assistant", "content": "The Kensington Oval was most appreciated for its excellent facilities." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the average attendance during the matches?" },
+      { "role": "assistant", "content": "The average attendance during the matches was around 15,000 spectators." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the top scorer for the USA team?" },
+      { "role": "assistant", "content": "Andries Gous was the top scorer for the USA team in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the tournament affect local cricket leagues?" },
+      { "role": "assistant", "content": "The tournament positively impacted local cricket leagues by increasing interest and participation." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player had a standout performance in the Super 8 stage?" },
+      { "role": "assistant", "content": "Suryakumar Yadav had a standout performance in the Super 8 stage." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the significance of the Player of the Tournament award?" },
+      { "role": "assistant", "content": "The Player of the Tournament award recognized exceptional performance throughout the event." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the highest individual score in the tournament?" },
+      { "role": "assistant", "content": "The highest individual score in the tournament was 94* by Aaron Jones from the USA." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many runs did Virat Kohli score in the final?" },
+      { "role": "assistant", "content": "Virat Kohli scored 76 runs in the final match of the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the outcome of the match between Australia and England?" },
+      { "role": "assistant", "content": "Australia defeated England by 36 runs in the group stage match." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player was recognized for his fielding skills?" },
+      { "role": "assistant", "content": "Jos Buttler was recognized for his exceptional fielding skills during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many teams participated in regional qualifiers for the tournament?" },
+      { "role": "assistant", "content": "Eight teams participated in regional qualifiers for the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the leading run-scorer for West Indies?" },
+      { "role": "assistant", "content": "Nicholas Pooran was the leading run-scorer for West Indies in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What significant milestone did players achieve during the tournament?" },
+      { "role": "assistant", "content": "Several players achieved personal milestones, including 1,000 runs in T20Is." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the key to India's success in the tournament?" },
+      { "role": "assistant", "content": "The key to India's success was their balanced team and effective strategies." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which match was the first-ever T20I played at Grand Prairie Stadium?" },
+      { "role": "assistant", "content": "The first-ever T20I at Grand Prairie Stadium was between the USA and Canada." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches were played in the Caribbean during the tournament?" },
+      { "role": "assistant", "content": "A total of 43 matches were played in the Caribbean during the tournament." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the youngest player to participate in the tournament?" },
+      { "role": "assistant", "content": "The youngest player was Afghanistan's Rahmanullah Gurbaz." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the main objective of the ICC's trophy tour?" },
+      { "role": "assistant", "content": "The main objective was to generate excitement and promote the tournament globally." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many players were retained from the previous World Cup in the squads?" },
+      { "role": "assistant", "content": "Several players were retained, showcasing continuity in team compositions." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What adjustments did teams make during the Super 8 stage?" },
+      { "role": "assistant", "content": "Teams made tactical adjustments based on performances in the group stage." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many runs did Afghanistan score in their semi-final match?" },
+      { "role": "assistant", "content": "Afghanistan scored just 56 runs in their semi-final match against South Africa." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who were the top two wicket-takers in the tournament?" },
+      { "role": "assistant", "content": "Fazalhaq Farooqi and Arshdeep Singh were the top two wicket-takers in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the significance of the group match between India and Pakistan?" },
+      { "role": "assistant", "content": "The match was significant due to the historic rivalry and high stakes involved." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the tournament influence local youth cricket programs?" },
+      { "role": "assistant", "content": "The tournament boosted interest in local youth cricket programs and initiatives." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who scored the most runs for England during the tournament?" },
+      { "role": "assistant", "content": "Jos Buttler scored the most runs for England during the tournament." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What strategies were used by teams to handle pressure situations?" },
+      { "role": "assistant", "content": "Teams used mental conditioning and focused training to handle pressure situations." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the tournament affect cricket broadcasting in the USA?" },
+      { "role": "assistant", "content": "The tournament increased cricket broadcasting viewership and interest in the USA." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the reaction of international players to the USA as a cricket venue?" },
+      { "role": "assistant", "content": "International players were excited and hopeful about cricket's growth in the USA." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did fan engagement evolve throughout the tournament?" },
+      { "role": "assistant", "content": "Fan engagement evolved through social media interactions and local events." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which team had the best net run rate in the group stage?" },
+      { "role": "assistant", "content": "India had the best net run rate in the group stage." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who won the Player of the Match in the second semi-final?" },
+      { "role": "assistant", "content": "Axar Patel won the Player of the Match in the second semi-final." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did weather conditions impact match schedules?" },
+      { "role": "assistant", "content": "Weather conditions led to some matches being rescheduled or shortened." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What were the most memorable performances by debutant players?" },
+      { "role": "assistant", "content": "Debutant players showcased remarkable performances, contributing to their teams." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many spectators attended the final match?" },
+      { "role": "assistant", "content": "Over 30,000 spectators attended the final match at Kensington Oval." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the highest run-scorer for Australia in the tournament?" },
+      { "role": "assistant", "content": "David Warner was the highest run-scorer for Australia in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What role did local businesses play during the tournament?" },
+      { "role": "assistant", "content": "Local businesses supported the tournament through sponsorships and promotions." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which team had the most international players in their squad?" },
+      { "role": "assistant", "content": "India had the most international players in their squad." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What challenges did players face in adapting to different pitches?" },
+      { "role": "assistant", "content": "Players faced challenges related to pitch conditions and local climate variations." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the overall impact of the tournament on cricket's image in the USA?" },
+      { "role": "assistant", "content": "The tournament significantly improved cricket's image and visibility in the USA." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches did Namibia win during the tournament?" },
+      { "role": "assistant", "content": "Namibia won 2 matches during the tournament." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the significance of the Player of the Tournament award?" },
+      { "role": "assistant", "content": "The Player of the Tournament award recognized outstanding performance across all matches." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What innovations were introduced in match broadcasting?" },
+      { "role": "assistant", "content": "Innovations included enhanced graphics and interactive viewer experiences." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What were the audience's overall reactions to the tournament's organization?" },
+      { "role": "assistant", "content": "Audience reactions were generally positive, praising the organization and logistics." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many centuries were scored during the tournament?" },
+      { "role": "assistant", "content": "A total of 8 centuries were scored during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What unique aspects of the USA's culture were integrated into the tournament?" },
+      { "role": "assistant", "content": "Aspects included local food, music, and celebrations during matches." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the tournament's success influence future ICC events?" },
+      { "role": "assistant", "content": "The success set a precedent for ICC events to explore new markets and venues." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the format of the group stage in the tournament?" },
+      { "role": "assistant", "content": "The group stage format consisted of four groups with five teams each." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches did India play in the group stage?" },
+      { "role": "assistant", "content": "India played a total of 5 matches in the group stage." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the player with the highest strike rate in the tournament?" },
+      { "role": "assistant", "content": "Rahmanullah Gurbaz had the highest strike rate in the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the historical context of cricket in the USA prior to the tournament?" },
+      { "role": "assistant", "content": "Cricket in the USA had a minor presence with sporadic leagues and events." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many players made their international debut during the tournament?" },
+      { "role": "assistant", "content": "Several players made their international debuts during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the significance of the final match for the Indian team?" },
+      { "role": "assistant", "content": "The final match marked India's second T20 World Cup title, boosting their legacy." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did the ICC plan for potential weather disruptions?" },
+      { "role": "assistant", "content": "The ICC had contingency plans in place for rescheduling and using the DLS method." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player received the best bowler award during the tournament?" },
+      { "role": "assistant", "content": "Fazalhaq Farooqi received the best bowler award for his outstanding performances." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What role did fan engagement play in the tournament's success?" },
+      { "role": "assistant", "content": "Fan engagement was crucial in creating excitement and a positive atmosphere." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches ended with a Super Over?" },
+      { "role": "assistant", "content": "One match ended with a Super Over during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the attendance for the semi-final matches?" },
+      { "role": "assistant", "content": "The attendance for the semi-final matches was around 20,000 spectators each." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the top wicket-taker for the USA?" },
+      { "role": "assistant", "content": "Monank Patel was the top wicket-taker for the USA during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the general feedback from players about the pitch conditions?" },
+      { "role": "assistant", "content": "Players noted that the pitch conditions varied and influenced gameplay." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many matches did Pakistan win in the tournament?" },
+      { "role": "assistant", "content": "Pakistan won 2 matches during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the captain of the Australian team?" },
+      { "role": "assistant", "content": "The captain of the Australian team was Aaron Finch." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What initiatives were taken to promote women's cricket during the tournament?" },
+      { "role": "assistant", "content": "Initiatives included dedicated promotions and highlighting female cricketers." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which team had the best fielding statistics in the tournament?" },
+      { "role": "assistant", "content": "South Africa had the best fielding statistics during the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many teams from Africa qualified for the tournament?" },
+      { "role": "assistant", "content": "Two teams from Africa qualified for the tournament." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Who was the player of the match in the opening game?" },
+      { "role": "assistant", "content": "Aaron Jones was named the player of the match in the opening game." },
+  
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the impact of local communities on the tournament's success?" },
+      { "role": "assistant", "content": "Local communities played a significant role in supporting and promoting the event." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How many players scored over 100 runs in the group stage?" },
+      { "role": "assistant", "content": "A total of 12 players scored over 100 runs in the group stage." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What were the highlights of the group match between India and England?" },
+      { "role": "assistant", "content": "The highlights included a thrilling finish and impressive performances from both teams." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "How did teams adapt their strategies during the Super 8 stage?" },
+      { "role": "assistant", "content": "Teams adapted strategies based on the performances and strengths of their opponents." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "Which player had the most memorable catch in the tournament?" },
+      { "role": "assistant", "content": "Jos Buttler had the most memorable catch during a crucial match." },
+      
+      { "role": "system", "content": "You are an assistant trained on cricket-related information." },
+      { "role": "user", "content": "What was the sentiment of fans towards the tournament's organization?" },
+      { "role": "assistant", "content": "Fans expressed positive sentiments towards the tournament's organization and execution." }
+  
+
+    ]
+  }
+  
