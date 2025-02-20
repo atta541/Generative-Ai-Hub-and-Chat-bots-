@@ -202,7 +202,7 @@ DATABASES = {
 # import urllib.parse
 
 # # Your PostgreSQL URL
-# DATABASE_URL = 'postgresql://postgres:RKyTfHYMMJWbyuKJwWlxfFmjohBVxdGV@autorack.proxy.rlwy.net:36961/railway'
+# DATABASE_URL = 'postgresql://postgres:RKyTrlwy.net:36961/railway'
 
 # # Parse the DATABASE_URL
 # parsed_url = urllib.parse.urlparse(DATABASE_URL)
@@ -320,18 +320,17 @@ if not HF_TOKEN:
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HF_TOKEN
 
 
-STRIPE_TEST_SECRET_KEY = 'sk_test_51PQQsWIJIsx7jmFZGSmKtlhhxQT0EkPhWcbVOiPHRtrOHfefIeQnQU5lM7vqVYqv99MCeKEizEvLhhTbbpzcyxjx00tLMFCtGG'
-
+STRIPE_TEST_SECRET_KEY = 'sk_test_51MCeKEizEvLhhTbb'
 
 
 CSRF_COOKIE_SECURE = True  
 
-STRIPE_TEST_PUBLIC_KEY = 'pk_test_51PQQsWIJIsx7jmFZxeK72wC321674plCOCLaslbW7gEDLUpnFLixxrLGqCp5v2ZBoZKLjURFd5WEhkPfdTAywsNi00mHhvQ8Tc'
-STRIPE_TEST_SECRET_KEY = 'sk_test_51PQQsWIJIsx7jmFZGSmKtlhhxQT0EkPhWcbVOiPHRtrOHfefIeQnQU5lM7vqVYqv99MCeKEizEvLhhTbbpzcyxjx00tLMFCtGG'
+STRIPE_TEST_PUBLIC_KEY = 'pk_tes'
+STRIPE_TEST_SECRET_KEY = 'sk_test_51PQQsWIJIs'
 
 
-# STRIPE_WEBHOOK_SECRET = ' whsec_ab85723abe43c96e5cb0edeb181480736f44920fe070abbe0e42921a39ded118'
-STRIPE_WEBHOOK_SECRET = 'whsec_ab85723abe43c96e5cb0edeb181480736f44920fe070abbe0e42921a39ded118'
+# STRIPE_WEBHOOK_SECRET = ' whseced118'
+STRIPE_WEBHOOK_SECRET = 'whsec_ab8bbe0e42921a39ded118'
 
 
 HUGGINGFACEHUB_API_TOKEN = "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"
@@ -352,7 +351,7 @@ DEFAULT_FROM_EMAIL = 'attareh542@gmail.com'
 
 
 
-SOCIAL_AUTH_GOOGLE_CLIENT_ID = "62964421677-krntlqgcfo4ec9ke71pn7qe4ui244ng5.apps.googleusercontent.com"
+SOCIAL_AUTH_GOOGLE_CLIENT_ID = "62964421677-krn.apps.googleusercontent.com"
 SOCIAL_AUTH_GOOGLE_CLIENT_SECRET = "your-client-secret"
 
 AUTHENTICATION_BACKENDS = [
@@ -368,8 +367,8 @@ AUTHENTICATION_BACKENDS = [
 SITE_ID = 1  # Ensure this matches your Site framework setup
 
 # Google provider settings
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '62964421677-krntlqgcfo4ec9ke71pn7qe4ui244ng5.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '62964421677-krgleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'GOCS_78-uSZlZ'
 
 
 # settings.py or the specific view file where the error occurs
