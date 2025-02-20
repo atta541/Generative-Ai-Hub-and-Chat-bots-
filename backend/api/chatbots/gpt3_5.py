@@ -29,7 +29,7 @@
 #     max_tokens=None,
 #     timeout=None,
 #     max_retries=2,
-#     api_key='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',
+#     api_key='sk-proj-l742CrAv7jC--5x-',
 
 
   
